@@ -15,3 +15,6 @@ region_filter_clip_enabled = true
 
 [node name="ClickableCity" parent="." unique_id=1274476208 instance=ExtResource("2_upxd6")]
 position = Vector2(823, 253)
+
+[node name="ClickableCity2" parent="." unique_id=1828281282 instance=ExtResource("2_upxd6")]
+position = Vector2(798, 203)

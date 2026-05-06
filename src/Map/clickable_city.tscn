@@ -34,7 +34,7 @@ script = SubResource("GDScript_rk12e")
 position = Vector2(25, 25)
 shape = SubResource("RectangleShape2D_rk12e")
 
-[node name="Highlight" type="ColorRect" parent="." unique_id=260209491]
+[node name="Highlight" type="ColorRect" parent="." unique_id=260209491 groups=["123"]]
 offset_right = 50.0
 offset_bottom = 50.0
 mouse_filter = 2
