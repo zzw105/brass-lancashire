@@ -14,6 +14,10 @@ config/name="brass-lancashire"
 run/main_scene="uid://buvqdvdtdfai"
 config/features=PackedStringArray("4.6", "Mobile")
 
+[autoload]
+
+CursorManager="*uid://61ra71chxkof"
+
 [display]
 
 window/size/viewport_width=1920

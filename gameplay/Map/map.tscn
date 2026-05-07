@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://du0yqm1u5dkto"]
 
 [ext_resource type="Texture2D" uid="uid://dhk0go4vig3r6" path="res://assets/img/map.jpg" id="1_7bf38"]
-[ext_resource type="PackedScene" uid="uid://cd3c2bj4u1b8j" path="res://src/Map/clickable_city.tscn" id="2_upxd6"]
 
 [node name="Map" type="Node2D" unique_id=1894075180]
 
@@ -12,9 +11,3 @@ centered = false
 region_enabled = true
 region_rect = Rect2(1071.4757, 1071.3015, 4000.4033, 4000.828)
 region_filter_clip_enabled = true
-
-[node name="ClickableCity" parent="." unique_id=1274476208 instance=ExtResource("2_upxd6")]
-position = Vector2(823, 253)
-
-[node name="ClickableCity2" parent="." unique_id=1828281282 instance=ExtResource("2_upxd6")]
-position = Vector2(798, 203)

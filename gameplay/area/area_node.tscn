@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://phymj8vqfcwy"]
+
+[sub_resource type="GDScript" id="GDScript_xdg5f"]
+script/source = "extends Area2D
+
+@export var state: SlotState = SlotState.new()
+
+func _on_mouse_entered():
+	print(\"进入：\", name)
+	CursorManager.enter_interactive()
+	# 在这里继续控制高光等其他交互
+
+func _on_mouse_exited():
+	print(\"离开：\", name)
+	CursorManager.exit_interactive()
+	# 在这里控制高光消失等
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xdg5f"]
+size = Vector2(50, 50)
+
+[node name="AreaNode" type="Area2D" unique_id=2009944928]
+script = SubResource("GDScript_xdg5f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1303973322]
+position = Vector2(25, 25)
+shape = SubResource("RectangleShape2D_xdg5f")
+
+[node name="Highlight" type="ColorRect" parent="." unique_id=1259071508]
+offset_right = 50.0
+offset_bottom = 50.0
+mouse_filter = 2
+color = Color(1, 0.9, 0.3, 0.4)
+
+[node name="BuildingAnchor" type="Marker2D" parent="." unique_id=355542355]
+position = Vector2(25, 25)
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

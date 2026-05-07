@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CityDatabase" format=3 uid="uid://ms8j2hwgrv1j"]
+
+[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://data/city/city_data.gd" id="1_6jwav"]
+[ext_resource type="Resource" uid="uid://c7pyirvp3a78" path="res://data/city/city_tres/birmingham.tres" id="2_3pipj"]
+[ext_resource type="Script" uid="uid://d36q52r6wnada" path="res://data/city/city_database.gd" id="2_sdix3"]
+[ext_resource type="Resource" uid="uid://jy1jeuypq2em" path="res://data/city/city_tres/derby.tres" id="3_8wsr3"]
+
+[resource]
+script = ExtResource("2_sdix3")
+cities = Array[ExtResource("1_6jwav")]([ExtResource("2_3pipj"), ExtResource("3_8wsr3")])
+metadata/_custom_type_script = "uid://d36q52r6wnada"

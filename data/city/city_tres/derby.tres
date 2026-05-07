@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CityData" format=3 uid="uid://jy1jeuypq2em"]
+
+[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://data/city/city_data.gd" id="1_0ae2n"]
+
+[resource]
+script = ExtResource("1_0ae2n")
+id = &"derby"
+display_name = "德比"
+metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"
