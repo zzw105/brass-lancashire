@@ -1,5 +1,5 @@
 extends Resource
-class_name Area_Data
+class_name AreaDefinition
 
 
 ## 唯一ID

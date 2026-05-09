@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://buvqdvdtdfai"]
 
 [ext_resource type="Script" uid="uid://cwko4q35622ji" path="res://main.gd" id="1_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://du0yqm1u5dkto" path="res://views/map/map_node.tscn" id="2_uu6xs"]
 
 [node name="Main" type="Node2D" unique_id=1525123550]
 script = ExtResource("1_uu6xs")
+
+[node name="Map" parent="." unique_id=1894075180 instance=ExtResource("2_uu6xs")]
+scale = Vector2(0.2699027, 0.2699027)
