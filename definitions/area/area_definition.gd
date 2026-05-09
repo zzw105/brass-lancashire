@@ -5,21 +5,15 @@ class_name AreaDefinition
 ## 唯一ID
 @export var id: StringName
 
-## 所属城市
-@export var affiliated_city: CityData
-
 ## 可建造产业
-@export var can_industry_list: Array[IndustryData]
+@export var can_industry_list: Array[IndustryDefinitions]=[]
 
 # Runtime Cache
-var affiliated_city_id : StringName
 
+## 可建造产业id
 var can_industry_ids : Array[StringName]
 
 func build_runtime_cache():
-
-	if affiliated_city:
-		affiliated_city_id =affiliated_city.id
 
 	can_industry_ids.clear()
 

@@ -1,11 +1,9 @@
-[gd_resource type="Resource" script_class="CityData" format=3 uid="uid://c7pyirvp3a78"]
+[gd_resource type="Resource" script_class="CityDefinitions" format=3 uid="uid://c7pyirvp3a78"]
 
-[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_data.gd" id="1"]
+[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="1"]
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_v8oal"]
 
 [resource]
 script = ExtResource("1")
 id = &"birmingham"
 display_name = "伯明翰"
-population = 120
-economy = 90
-position = Vector2i(10, 20)

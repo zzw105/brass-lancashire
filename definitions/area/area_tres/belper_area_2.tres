@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AreaDefinition" format=3 uid="uid://clxgob4w1l0uj"]
+
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definitions.gd" id="1_gl581"]
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="2_hnery"]
+[ext_resource type="Resource" uid="uid://dnp1wuh3n7w36" path="res://definitions/industry/industry_tres/coal_industry.tres" id="2_no4hb"]
+
+[resource]
+script = ExtResource("2_hnery")
+id = &"belper_area_2"
+can_industry_list = Array[ExtResource("1_gl581")]([ExtResource("2_no4hb")])
+metadata/_custom_type_script = "uid://cvcs8h2d6mwjm"

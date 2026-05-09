@@ -1,9 +1,17 @@
 [gd_scene format=3 uid="uid://du0yqm1u5dkto"]
 
 [ext_resource type="Texture2D" uid="uid://dhk0go4vig3r6" path="res://assets/img/map.jpg" id="1_7bf38"]
-[ext_resource type="PackedScene" uid="uid://phymj8vqfcwy" path="res://gameplay/area/area_node.tscn" id="2_ap3q4"]
+[ext_resource type="PackedScene" uid="uid://phymj8vqfcwy" path="res://views/map/area_node.tscn" id="2_ap3q4"]
 [ext_resource type="Resource" uid="uid://b4ikugk1wmsoh" path="res://definitions/area/area_tres/derby_area_1.tres" id="3_b4lx6"]
+[ext_resource type="Resource" uid="uid://dfws0pd33m3d5" path="res://definitions/area/area_tres/stoke_area_1.tres" id="3_dqqcw"]
 [ext_resource type="Resource" uid="uid://c6ud6kkgpnl7n" path="res://definitions/area/area_tres/derby_area_2.tres" id="4_b4lx6"]
+[ext_resource type="Resource" uid="uid://cgnoeg05q2v8f" path="res://definitions/area/area_tres/stoke_area_2.tres" id="4_mqop8"]
+[ext_resource type="Resource" uid="uid://byh0jdp3xbfhj" path="res://definitions/area/area_tres/stoke_area_3.tres" id="5_f1ag2"]
+[ext_resource type="Resource" uid="uid://btbq3vnhulvrh" path="res://definitions/area/area_tres/leek_area_1.tres" id="6_mqop8"]
+[ext_resource type="Resource" uid="uid://dhk2ig6hpt667" path="res://definitions/area/area_tres/leek_area_2.tres" id="7_f1ag2"]
+[ext_resource type="Resource" uid="uid://cuj1yexl44hxm" path="res://definitions/area/area_tres/belper_area_1.tres" id="8_435uw"]
+[ext_resource type="Resource" uid="uid://clxgob4w1l0uj" path="res://definitions/area/area_tres/belper_area_2.tres" id="9_coikg"]
+[ext_resource type="Resource" uid="uid://cq2dn40lq6ubt" path="res://definitions/area/area_tres/belper_area_3.tres" id="10_m2527"]
 
 [sub_resource type="GDScript" id="GDScript_ap3q4"]
 script/source = "extends Node2D
@@ -28,12 +36,210 @@ region_enabled = true
 region_rect = Rect2(1071.4757, 1071.3015, 4000.4033, 4000.828)
 region_filter_clip_enabled = true
 
-[node name="DerbyArea1" parent="." unique_id=2009944928 instance=ExtResource("2_ap3q4")]
+[node name="AreaBox" type="Node2D" parent="." unique_id=1685384341]
+
+[node name="StokeArea1" parent="AreaBox" unique_id=727673369 instance=ExtResource("2_ap3q4")]
+position = Vector2(1565.3606, 310.75522)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("3_dqqcw")
+
+[node name="StokeArea2" parent="AreaBox" unique_id=1973846056 instance=ExtResource("2_ap3q4")]
+position = Vector2(1468.0618, 495.6119)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("4_mqop8")
+
+[node name="StokeArea3" parent="AreaBox" unique_id=1504170870 instance=ExtResource("2_ap3q4")]
+position = Vector2(1659.2493, 497.24142)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("5_f1ag2")
+
+[node name="LeekArea1" parent="AreaBox" unique_id=1811375877 instance=ExtResource("2_ap3q4")]
+position = Vector2(2034.1422, 206.53151)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("6_mqop8")
+
+[node name="LeekArea2" parent="AreaBox" unique_id=829167388 instance=ExtResource("2_ap3q4")]
+position = Vector2(2221.71, 206.54192)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("7_f1ag2")
+
+[node name="BelperArea1" parent="AreaBox" unique_id=2009944928 instance=ExtResource("2_ap3q4")]
+position = Vector2(2739.0012, 264.87866)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("8_435uw")
+
+[node name="BelperArea2" parent="AreaBox" unique_id=2074237891 instance=ExtResource("2_ap3q4")]
+position = Vector2(2925.2114, 263.70245)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("9_coikg")
+
+[node name="BelperArea3" parent="AreaBox" unique_id=1355053447 instance=ExtResource("2_ap3q4")]
+position = Vector2(3109.91, 263.67566)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("10_m2527")
+
+[node name="DerbyArea1" parent="AreaBox" unique_id=662309811 instance=ExtResource("2_ap3q4")]
 position = Vector2(3050.002, 937.2609)
-scale = Vector2(3.7037036, 3.7037036)
+scale = Vector2(3.542, 3.542)
 area_data = ExtResource("3_b4lx6")
 
-[node name="DerbyArea2" parent="." unique_id=1319112418 instance=ExtResource("2_ap3q4")]
+[node name="DerbyArea2" parent="AreaBox" unique_id=1319112418 instance=ExtResource("2_ap3q4")]
 position = Vector2(2863.221, 936.80786)
-scale = Vector2(3.6635013, 3.6635013)
+scale = Vector2(3.542, 3.542)
 area_data = ExtResource("4_b4lx6")
+
+[node name="AreaNode2" parent="AreaBox" unique_id=1558547002 instance=ExtResource("2_ap3q4")]
+position = Vector2(1240.2965, 918.9941)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode" parent="AreaBox" unique_id=875714360 instance=ExtResource("2_ap3q4")]
+position = Vector2(1050.1538, 919.4256)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode4" parent="AreaBox" unique_id=1046090527 instance=ExtResource("2_ap3q4")]
+position = Vector2(1426.7782, 1294.2158)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode5" parent="AreaBox" unique_id=138369064 instance=ExtResource("2_ap3q4")]
+position = Vector2(1614.134, 1294.8472)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode8" parent="AreaBox" unique_id=349555210 instance=ExtResource("2_ap3q4")]
+position = Vector2(2083.1453, 848.293)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode14" parent="AreaBox" unique_id=840549924 instance=ExtResource("2_ap3q4")]
+position = Vector2(2959.7458, 754.1799)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode15" parent="AreaBox" unique_id=1991877340 instance=ExtResource("2_ap3q4")]
+position = Vector2(2270.2844, 850.3194)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode16" parent="AreaBox" unique_id=1762633860 instance=ExtResource("2_ap3q4")]
+position = Vector2(2554.398, 1410.3298)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode17" parent="AreaBox" unique_id=1965192736 instance=ExtResource("2_ap3q4")]
+position = Vector2(2743.1436, 1410.1571)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode18" parent="AreaBox" unique_id=28892035 instance=ExtResource("2_ap3q4")]
+position = Vector2(1105.7869, 1653.4573)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode19" parent="AreaBox" unique_id=1303037337 instance=ExtResource("2_ap3q4")]
+position = Vector2(1719.6456, 1703.3412)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode20" parent="AreaBox" unique_id=1903320939 instance=ExtResource("2_ap3q4")]
+position = Vector2(1907.0381, 1703.3413)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode21" parent="AreaBox" unique_id=375678898 instance=ExtResource("2_ap3q4")]
+position = Vector2(2613.6982, 1912.817)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode22" parent="AreaBox" unique_id=1491590884 instance=ExtResource("2_ap3q4")]
+position = Vector2(2797.2417, 1911.5306)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode23" parent="AreaBox" unique_id=1296601521 instance=ExtResource("2_ap3q4")]
+position = Vector2(842.5818, 2060.6846)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode24" parent="AreaBox" unique_id=1129288167 instance=ExtResource("2_ap3q4")]
+position = Vector2(748.6068, 2248.762)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode25" parent="AreaBox" unique_id=1488016208 instance=ExtResource("2_ap3q4")]
+position = Vector2(933.51917, 2247.5344)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode26" parent="AreaBox" unique_id=895748419 instance=ExtResource("2_ap3q4")]
+position = Vector2(1298.6617, 2072.672)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode27" parent="AreaBox" unique_id=1634341730 instance=ExtResource("2_ap3q4")]
+position = Vector2(1486.7516, 2072.672)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode28" parent="AreaBox" unique_id=2053100980 instance=ExtResource("2_ap3q4")]
+position = Vector2(1484.9291, 2562.3845)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode29" parent="AreaBox" unique_id=1786538727 instance=ExtResource("2_ap3q4")]
+position = Vector2(1671.2091, 2562.132)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode30" parent="AreaBox" unique_id=902991435 instance=ExtResource("2_ap3q4")]
+position = Vector2(1943.8066, 2164.9646)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode31" parent="AreaBox" unique_id=94844123 instance=ExtResource("2_ap3q4")]
+position = Vector2(2131.3267, 2164.4194)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode32" parent="AreaBox" unique_id=1628746209 instance=ExtResource("2_ap3q4")]
+position = Vector2(2338.6177, 2531.0688)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode33" parent="AreaBox" unique_id=1257422287 instance=ExtResource("2_ap3q4")]
+position = Vector2(2523.9636, 2532.0754)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode34" parent="AreaBox" unique_id=1800238996 instance=ExtResource("2_ap3q4")]
+position = Vector2(2337.062, 2718.1526)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode35" parent="AreaBox" unique_id=610105942 instance=ExtResource("2_ap3q4")]
+position = Vector2(2521.8132, 2719.6165)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode36" parent="AreaBox" unique_id=377450338 instance=ExtResource("2_ap3q4")]
+position = Vector2(2975.6824, 2316.7156)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode37" parent="AreaBox" unique_id=38594324 instance=ExtResource("2_ap3q4")]
+position = Vector2(3163.041, 2316.258)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode38" parent="AreaBox" unique_id=235105452 instance=ExtResource("2_ap3q4")]
+position = Vector2(3066.5479, 2843.0127)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode39" parent="AreaBox" unique_id=431455933 instance=ExtResource("2_ap3q4")]
+position = Vector2(3251.4817, 2845.026)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode40" parent="AreaBox" unique_id=492116324 instance=ExtResource("2_ap3q4")]
+position = Vector2(3158.5571, 2655.3796)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode41" parent="AreaBox" unique_id=1781856656 instance=ExtResource("2_ap3q4")]
+position = Vector2(2148.0112, 3192.337)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode42" parent="AreaBox" unique_id=673463080 instance=ExtResource("2_ap3q4")]
+position = Vector2(2338.618, 3191.1013)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode43" parent="AreaBox" unique_id=1267816496 instance=ExtResource("2_ap3q4")]
+position = Vector2(1210.2656, 2975.0386)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode44" parent="AreaBox" unique_id=977443696 instance=ExtResource("2_ap3q4")]
+position = Vector2(1393.7269, 2976.3828)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode45" parent="AreaBox" unique_id=1836030493 instance=ExtResource("2_ap3q4")]
+position = Vector2(1260.7688, 3496.7776)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode47" parent="AreaBox" unique_id=1979846858 instance=ExtResource("2_ap3q4")]
+position = Vector2(948.92377, 3277.7524)
+scale = Vector2(3.542, 3.542)
+
+[node name="AreaNode46" parent="AreaBox" unique_id=1039521245 instance=ExtResource("2_ap3q4")]
+position = Vector2(1445.9768, 3495.8167)
+scale = Vector2(3.542, 3.542)

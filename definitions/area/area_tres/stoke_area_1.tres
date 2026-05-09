@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AreaDefinition" format=3 uid="uid://dfws0pd33m3d5"]
+
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definitions.gd" id="1_skco4"]
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="2_sc863"]
+[ext_resource type="Resource" uid="uid://dja645o5dwhbq" path="res://definitions/industry/industry_tres/cotton_industry.tres" id="3_vfyd4"]
+[ext_resource type="Resource" uid="uid://ch5evscf6q0mq" path="res://definitions/industry/industry_tres/manufacturing_industry.tres" id="4_ksreo"]
+
+[resource]
+script = ExtResource("2_sc863")
+id = &"stoke_area_1"
+can_industry_list = Array[ExtResource("1_skco4")]([ExtResource("3_vfyd4"), ExtResource("4_ksreo")])
+metadata/_custom_type_script = "uid://cvcs8h2d6mwjm"

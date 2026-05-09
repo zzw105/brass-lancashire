@@ -1,6 +1,8 @@
 extends BaseState
 class_name PlayerTurnState
 
+
+
 func enter():
 
 	print("玩家回合开始")
@@ -21,5 +23,4 @@ func on_command_executed(command):
 	print("剩余行动:", GameState.remaining_actions)
 
 	if GameState.remaining_actions <= 0:
-
 		Fsm.change_state(GameEndState.new())

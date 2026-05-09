@@ -1,6 +1,8 @@
 class_name BaseState
 extends RefCounted
 
+var fsm
+
 func enter():
 	pass
 

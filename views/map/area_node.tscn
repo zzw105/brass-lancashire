@@ -5,14 +5,14 @@ script/source = "extends Area2D
 class_name AreaNode
 
 ## 区域属性
-@export var area_data: Area_Data
+@export var area_data: AreaDefinition
 
 
 func _on_mouse_entered():
 	print(\"进入：\", name)
-	print(area_data.id)
 	CursorManager.enter_interactive()
 	# 在这里继续控制高光等其他交互
+
 
 func _on_mouse_exited():
 	print(\"离开：\", name)

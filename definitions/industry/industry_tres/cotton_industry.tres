@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="IndustryData" format=3 uid="uid://dja645o5dwhbq"]
 
-[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_date.gd" id="1_eau5t"]
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definitions.gd" id="1_eau5t"]
 
 [resource]
 script = ExtResource("1_eau5t")

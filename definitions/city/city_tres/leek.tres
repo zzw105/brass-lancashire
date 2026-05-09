@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://cmav0sc2am40i"]
+
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_nyaeo"]
+[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_jx3pn"]
+[ext_resource type="Resource" uid="uid://btbq3vnhulvrh" path="res://definitions/area/area_tres/leek_area_1.tres" id="2_ttjev"]
+[ext_resource type="Resource" uid="uid://dhk2ig6hpt667" path="res://definitions/area/area_tres/leek_area_2.tres" id="3_r0wmt"]
+
+[resource]
+script = ExtResource("2_jx3pn")
+id = &"leek"
+display_name = "利克"
+owned_area = Array[ExtResource("1_nyaeo")]([ExtResource("2_ttjev"), ExtResource("3_r0wmt")])
+metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

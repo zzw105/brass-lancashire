@@ -19,8 +19,9 @@ config/features=PackedStringArray("4.6", "Mobile")
 CommandBus="*uid://db5tjmoyxdim2"
 CursorManager="*uid://61ra71chxkof"
 EventBus="*uid://cenbysffdrs13"
-Fsm="*uid://bnufnjwtgypgc"
 GameState="*uid://b2djm3opf0n7x"
+DataManager="*uid://b182gbwlutdt"
+Fsm="*uid://bnufnjwtgypgc"
 
 [display]
 

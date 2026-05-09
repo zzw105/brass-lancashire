@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://c5aqubdll2233"]
+
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_w8agw"]
+[ext_resource type="Resource" uid="uid://dfws0pd33m3d5" path="res://definitions/area/area_tres/stoke_area_1.tres" id="2_dbj2l"]
+[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_w8agw"]
+[ext_resource type="Resource" uid="uid://cgnoeg05q2v8f" path="res://definitions/area/area_tres/stoke_area_2.tres" id="3_ttep6"]
+[ext_resource type="Resource" uid="uid://byh0jdp3xbfhj" path="res://definitions/area/area_tres/stoke_area_3.tres" id="4_1cnwa"]
+
+[resource]
+script = ExtResource("2_w8agw")
+id = &"stoke"
+display_name = "斯托克"
+owned_area = Array[ExtResource("1_w8agw")]([ExtResource("2_dbj2l"), ExtResource("3_ttep6"), ExtResource("4_1cnwa")])
+metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"
