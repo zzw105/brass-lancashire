@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CityData" format=3 uid="uid://c7pyirvp3a78"]
 
-[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://data/city/city_data.gd" id="1"]
+[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_data.gd" id="1"]
 
 [resource]
 script = ExtResource("1")

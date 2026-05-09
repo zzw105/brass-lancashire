@@ -10,9 +10,8 @@ func _init(p_player_id, p_type):
 
 
 func validate(state):
-	
 	var player = state.players[player_id]
-
+	
 	return player.money >= 10
 
 

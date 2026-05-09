@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Area_Data" format=3 uid="uid://c6ud6kkgpnl7n"]
+
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_date.gd" id="1_15l7a"]
+[ext_resource type="Resource" uid="uid://jy1jeuypq2em" path="res://definitions/city/city_tres/derby.tres" id="1_vx3cm"]
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_data.gd" id="2_vx3cm"]
+
+[resource]
+script = ExtResource("2_vx3cm")
+id = &"derby_area_2"
+affiliated_city = ExtResource("1_vx3cm")
+metadata/_custom_type_script = "uid://cvcs8h2d6mwjm"

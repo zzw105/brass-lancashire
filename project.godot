@@ -16,11 +16,11 @@ config/features=PackedStringArray("4.6", "Mobile")
 
 [autoload]
 
+CommandBus="*uid://db5tjmoyxdim2"
 CursorManager="*uid://61ra71chxkof"
 EventBus="*uid://cenbysffdrs13"
-GameState="*uid://b2djm3opf0n7x"
 Fsm="*uid://bnufnjwtgypgc"
-CommandBus="*uid://db5tjmoyxdim2"
+GameState="*uid://b2djm3opf0n7x"
 
 [display]
 
@@ -30,7 +30,7 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/TurnBasedSystem/plugin.cfg", "res://addons/turnity/plugin.cfg")
+enabled=PackedStringArray()
 
 [global_group]
 
