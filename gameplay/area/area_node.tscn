@@ -2,11 +2,15 @@
 
 [sub_resource type="GDScript" id="GDScript_xdg5f"]
 script/source = "extends Area2D
+class_name AreaNode
 
-@export var state: SlotState = SlotState.new()
+## 区域属性
+@export var area_data: Area_Data
+
 
 func _on_mouse_entered():
 	print(\"进入：\", name)
+	print(area_data.id)
 	CursorManager.enter_interactive()
 	# 在这里继续控制高光等其他交互
 
@@ -19,7 +23,7 @@ func _on_mouse_exited():
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xdg5f"]
 size = Vector2(50, 50)
 
-[node name="AreaNode" type="Area2D" unique_id=2009944928]
+[node name="AreaNode" type="Area2D" unique_id=2009944928 groups=["area"]]
 script = SubResource("GDScript_xdg5f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1303973322]

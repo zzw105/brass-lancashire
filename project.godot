@@ -17,12 +17,24 @@ config/features=PackedStringArray("4.6", "Mobile")
 [autoload]
 
 CursorManager="*uid://61ra71chxkof"
+EventBus="*uid://cenbysffdrs13"
+GameState="*uid://b2djm3opf0n7x"
+Fsm="*uid://bnufnjwtgypgc"
+CommandBus="*uid://db5tjmoyxdim2"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/stretch/mode="canvas_items"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/TurnBasedSystem/plugin.cfg", "res://addons/turnity/plugin.cfg")
+
+[global_group]
+
+area="区域"
 
 [physics]
 

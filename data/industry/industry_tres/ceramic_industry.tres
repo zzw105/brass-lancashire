@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="IndustryData" format=3 uid="uid://cexhnjtjot7lg"]
+
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://data/industry/industry_date.gd" id="1_rr36e"]
+
+[resource]
+script = ExtResource("1_rr36e")
+id = &"ceramic_industry"
+display_name = "陶瓷产业"
+metadata/_custom_type_script = "uid://c0unt0loehw5f"

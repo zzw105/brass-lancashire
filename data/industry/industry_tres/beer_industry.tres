@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="IndustryData" format=3 uid="uid://cf5hd0nhpvxq3"]
+
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://data/industry/industry_date.gd" id="1_rml17"]
+
+[resource]
+script = ExtResource("1_rml17")
+id = &"beer_industry"
+display_name = "啤酒产业"
+metadata/_custom_type_script = "uid://c0unt0loehw5f"

@@ -1,6 +1,7 @@
 extends Resource
 class_name Area_Data
 
+
 ## 唯一ID
 @export var id: StringName
 

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="IndustryData" format=3 uid="uid://dja645o5dwhbq"]
+
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://data/industry/industry_date.gd" id="1_eau5t"]
+
+[resource]
+script = ExtResource("1_eau5t")
+id = &"cotton_industry"
+display_name = "棉花厂"
+metadata/_custom_type_script = "uid://c0unt0loehw5f"

@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://du0yqm1u5dkto"]
+
+[ext_resource type="Texture2D" uid="uid://dhk0go4vig3r6" path="res://assets/img/map.jpg" id="1_7bf38"]
+[ext_resource type="PackedScene" uid="uid://phymj8vqfcwy" path="res://gameplay/area/area_node.tscn" id="2_ap3q4"]
+[ext_resource type="Resource" uid="uid://b4ikugk1wmsoh" path="res://data/area/area_tres/derby_area_1.tres" id="3_b4lx6"]
+[ext_resource type="Resource" uid="uid://c6ud6kkgpnl7n" path="res://data/area/area_tres/derby_area_2.tres" id="4_b4lx6"]
+
+[sub_resource type="GDScript" id="GDScript_ap3q4"]
+script/source = "extends Node2D
+
+
+
+
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="Map" type="Node2D" unique_id=1894075180]
+script = SubResource("GDScript_ap3q4")
+
+[node name="Map" type="Sprite2D" parent="." unique_id=183197244]
+texture = ExtResource("1_7bf38")
+centered = false
+region_enabled = true
+region_rect = Rect2(1071.4757, 1071.3015, 4000.4033, 4000.828)
+region_filter_clip_enabled = true
+
+[node name="DerbyArea1" parent="." unique_id=2009944928 instance=ExtResource("2_ap3q4")]
+position = Vector2(3050.002, 937.2609)
+scale = Vector2(3.7037036, 3.7037036)
+area_data = ExtResource("3_b4lx6")
+
+[node name="DerbyArea2" parent="." unique_id=1319112418 instance=ExtResource("2_ap3q4")]
+position = Vector2(2863.221, 936.80786)
+scale = Vector2(3.6635013, 3.6635013)
+area_data = ExtResource("4_b4lx6")
