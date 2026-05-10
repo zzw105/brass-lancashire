@@ -2,10 +2,12 @@ extends Node
 
 var hover_count: int = 0
 
+
 func enter_interactive():
 	hover_count += 1
 	if hover_count == 1:
 		Input.set_default_cursor_shape(Input.CURSOR_POINTING_HAND)
+
 
 func exit_interactive():
 	hover_count -= 1

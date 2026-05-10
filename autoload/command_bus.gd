@@ -2,10 +2,9 @@ extends Node
 
 var history = []
 
+
 func execute_command(command):
-
 	if !command.validate(GameState):
-
 		print("非法命令")
 		return false
 

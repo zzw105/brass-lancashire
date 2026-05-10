@@ -31,7 +31,7 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/gdscript_formatter/plugin.cfg")
 
 [global_group]
 
