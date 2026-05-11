@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://capgfv3cv0m0r"]
+
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
+[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
+
+[resource]
+script = ExtResource("2_thncp")
+id = &"uttoxeter"
+display_name = "尤托克西特"
+metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"
