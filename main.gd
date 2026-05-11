@@ -2,12 +2,19 @@ extends Node
 
 
 func _ready():
-	GameState.setup()
+	print("=== 游戏启动 ===")
 
-	Fsm.change_state(PlayerTurnState.new())
+	print("=== 开始加载静态数据 ===")
 	DataManager.load_definitions()
+	print("=== 完成加载静态数据 ===")
 
-	print(DataManager.get_area("derby_area_1").can_industry_ids)
+	print(DataManager.areas)
+
+	print("=== 开始加载游戏数据 ===")
+	GameState.setup()
+	print("=== 完成加载游戏数据 ===")
+	
+	Fsm.change_state(PlayerTurnState.new())
 
 	#
 	#var cmd = BuildIndustryCommand.new(

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="AreaDefinition" format=3 uid="uid://cgnoeg05q2v8f"]
 
-[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definitions.gd" id="1_1mlfr"]
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definition.gd" id="1_1mlfr"]
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="2_kikos"]
 [ext_resource type="Resource" uid="uid://cexhnjtjot7lg" path="res://definitions/industry/industry_tres/ceramic_industry.tres" id="3_poqwb"]
 [ext_resource type="Resource" uid="uid://bkeg8sbeq16x0" path="res://definitions/industry/industry_tres/iron_industry.tres" id="4_huasn"]

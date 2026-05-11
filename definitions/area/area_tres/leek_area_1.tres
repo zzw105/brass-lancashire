@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="AreaDefinition" format=3 uid="uid://btbq3vnhulvrh"]
 
-[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definitions.gd" id="1_0g3e0"]
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definition.gd" id="1_0g3e0"]
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="2_0ki4y"]
 [ext_resource type="Resource" uid="uid://dja645o5dwhbq" path="res://definitions/industry/industry_tres/cotton_industry.tres" id="2_i888y"]
 [ext_resource type="Resource" uid="uid://ch5evscf6q0mq" path="res://definitions/industry/industry_tres/manufacturing_industry.tres" id="3_clohb"]
