@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://dj856e1yvcyxy"]
+
+[ext_resource type="Resource" path="res://definitions/market/market_tres/warrington_market.tres" id="1_4x83m"]
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
+[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="3_qyjte"]
+
+[resource]
+script = ExtResource("2_thncp")
+id = &"warrington"
+display_name = "沃灵顿"
+market_info = ExtResource("1_4x83m")
+metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

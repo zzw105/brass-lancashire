@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="MarketDefinition" format=3 uid="uid://b0thkhycmw3it"]
+
+[ext_resource type="Script" uid="uid://didtsf4dex1y0" path="res://definitions/market/market_definition.gd" id="1_xqkrq"]
+
+[resource]
+script = ExtResource("1_xqkrq")
+id = &"oxford_market"
+display_name = "牛津市场"
+metadata/_custom_type_script = "uid://didtsf4dex1y0"
