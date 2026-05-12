@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LinkDefinition" format=3 uid="uid://ye278274xjaf"]
+
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="1_jggmd"]
+
+[resource]
+script = ExtResource("1_jggmd")
+id = &"stone_stafford_link"
+display_name = "斯东_斯塔福德_道路"
+is_water = true
+is_rail = true
+metadata/_custom_type_script = "uid://dd0y2ligohvf3"

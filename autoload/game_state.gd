@@ -50,4 +50,3 @@ func setupAreas():
 func setupIndustry():
 	for industry_id in DataManager.industries:
 		industries[industry_id] = IndustryRuntimeState.new(industry_id)
-	return

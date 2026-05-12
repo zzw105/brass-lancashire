@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LinkDefinition" format=3 uid="uid://c5j2x8mje2j7p"]
+
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="1_jggmd"]
+
+[resource]
+script = ExtResource("1_jggmd")
+id = &"derby_burton_upon_trent_link"
+display_name = "德比_特伦河畔伯顿_道路"
+is_water = true
+is_rail = true
+metadata/_custom_type_script = "uid://dd0y2ligohvf3"

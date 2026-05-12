@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LinkDefinition" format=3 uid="uid://bxgbulyyvgg0y"]
+
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="1_jggmd"]
+
+[resource]
+script = ExtResource("1_jggmd")
+id = &"cannock_walsall_link"
+display_name = "坎诺克_沃尔索尔_道路"
+is_water = true
+is_rail = true
+metadata/_custom_type_script = "uid://dd0y2ligohvf3"
