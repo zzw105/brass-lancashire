@@ -6,6 +6,5 @@
 script = ExtResource("1_jggmd")
 id = &"belper_leek_link"
 display_name = "贝尔珀_利克_道路"
-is_water = true
 is_rail = true
 metadata/_custom_type_script = "uid://dd0y2ligohvf3"

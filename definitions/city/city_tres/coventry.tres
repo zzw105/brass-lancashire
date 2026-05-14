@@ -2,9 +2,17 @@
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/coventry_area_1.tres" id="2_a1"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/coventry_area_2.tres" id="3_a2"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/coventry_area_3.tres" id="4_a3"]
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="5_l"]
+[ext_resource type="Resource" uid="uid://ddjnynf8d8ajd" path="res://definitions/link/link_tres/birmingham_coventry_link.tres" id="6_l1"]
+[ext_resource type="Resource" uid="uid://bxltb0ae6131f" path="res://definitions/link/link_tres/nuneaton_coventry_link.tres" id="7_l2"]
 
 [resource]
 script = ExtResource("2_thncp")
 id = &"coventry"
 display_name = "考文垂"
+owned_area = Array[ExtResource("1_lrwq2")]([ExtResource("2_a1"), ExtResource("3_a2"), ExtResource("4_a3")])
+owned_link = Array[ExtResource("5_l")]([ExtResource("6_l1"), ExtResource("7_l2")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

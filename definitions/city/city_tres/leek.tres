@@ -1,13 +1,17 @@
-[gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://cmav0sc2am40i"]
+[gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://capgfv3cv0m0r"]
 
-[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_nyaeo"]
-[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_jx3pn"]
-[ext_resource type="Resource" uid="uid://btbq3vnhulvrh" path="res://definitions/area/area_tres/leek_area_1.tres" id="2_ttjev"]
-[ext_resource type="Resource" uid="uid://dhk2ig6hpt667" path="res://definitions/area/area_tres/leek_area_2.tres" id="3_r0wmt"]
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
+[ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/leek_area_1.tres" id="2_a1"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/leek_area_2.tres" id="3_a2"]
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="4_l"]
+[ext_resource type="Resource" uid="uid://6ogbm6gmnyl" path="res://definitions/link/link_tres/belper_leek_link.tres" id="5_l1"]
+[ext_resource type="Resource" uid="uid://djlrrvkbmnfai" path="res://definitions/link/link_tres/stoke_leek_link.tres" id="6_l2"]
 
 [resource]
-script = ExtResource("2_jx3pn")
+script = ExtResource("2_thncp")
 id = &"leek"
 display_name = "利克"
-owned_area = Array[ExtResource("1_nyaeo")]([ExtResource("2_ttjev"), ExtResource("3_r0wmt")])
+owned_area = Array[ExtResource("1_lrwq2")]([ExtResource("2_a1"), ExtResource("3_a2")])
+owned_link = Array[ExtResource("4_l")]([ExtResource("5_l1"), ExtResource("6_l2")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

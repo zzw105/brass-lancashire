@@ -5,10 +5,15 @@
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_w8agw"]
 [ext_resource type="Resource" uid="uid://cgnoeg05q2v8f" path="res://definitions/area/area_tres/stoke_area_2.tres" id="3_ttep6"]
 [ext_resource type="Resource" uid="uid://byh0jdp3xbfhj" path="res://definitions/area/area_tres/stoke_area_3.tres" id="4_1cnwa"]
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="5_l"]
+[ext_resource type="Resource" uid="uid://d2867b5g6vco5" path="res://definitions/link/link_tres/warrington_stoke_link.tres" id="6_l1"]
+[ext_resource type="Resource" uid="uid://djlrrvkbmnfai" path="res://definitions/link/link_tres/stoke_leek_link.tres" id="7_l2"]
+[ext_resource type="Resource" uid="uid://cfykmnbvv6dku" path="res://definitions/link/link_tres/stoke_stone_link.tres" id="8_l3"]
 
 [resource]
 script = ExtResource("2_w8agw")
 id = &"stoke"
 display_name = "斯托克"
 owned_area = Array[ExtResource("1_w8agw")]([ExtResource("2_dbj2l"), ExtResource("3_ttep6"), ExtResource("4_1cnwa")])
+owned_link = Array[ExtResource("5_l")]([ExtResource("6_l1"), ExtResource("7_l2"), ExtResource("8_l3")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

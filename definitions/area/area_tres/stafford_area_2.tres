@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AreaDefinition" format=3 uid="uid://fy4cgo1gyder"]
+
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definition.gd" id="1_vw5ku"]
+[ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="2_vupss"]
+
+[resource]
+script = ExtResource("2_vupss")
+id = &"stafford_area_2"
+metadata/_custom_type_script = "uid://cvcs8h2d6mwjm"

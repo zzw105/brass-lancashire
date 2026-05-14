@@ -1,11 +1,16 @@
 [gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://c62kxgfg3dngq"]
 
+[ext_resource type="Resource" uid="uid://b0thkhycmw3it" path="res://definitions/market/market_tres/oxford_market.tres" id="1_jtclb"]
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="2_lidy8"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
+[ext_resource type="Resource" uid="uid://bsv0vlxoqfavb" path="res://definitions/link/link_tres/birmingham_oxford_link.tres" id="3_l1"]
+[ext_resource type="Resource" uid="uid://d2onkwjn37yel" path="res://definitions/link/link_tres/redditch_oxford_link.tres" id="4_l2"]
 
 [resource]
 script = ExtResource("2_thncp")
 id = &"oxford"
 display_name = "牛津"
+market_info = ExtResource("1_jtclb")
+owned_link = Array[ExtResource("2_lidy8")]([ExtResource("3_l1"), ExtResource("4_l2")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

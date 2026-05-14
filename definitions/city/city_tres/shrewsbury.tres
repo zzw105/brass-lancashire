@@ -4,10 +4,13 @@
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="3_6wctv"]
+[ext_resource type="Resource" uid="uid://bd3mpi6iviw1x" path="res://definitions/link/link_tres/colbrookdale_shrewsbury_link.tres" id="4_l1"]
 
 [resource]
 script = ExtResource("2_thncp")
 id = &"shrewsbury"
 display_name = "什鲁斯伯里"
 market_info = ExtResource("1_e0vtt")
+owned_area = Array[ExtResource("1_lrwq2")]([])
+owned_link = Array[ExtResource("3_6wctv")]([ExtResource("4_l1")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

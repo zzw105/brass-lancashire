@@ -1,9 +1,24 @@
-[gd_resource type="Resource" script_class="CityDefinitions" format=3 uid="uid://c7pyirvp3a78"]
+[gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://c7pyirvp3a78"]
 
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="1"]
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_v8oal"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/birmingham_area_1.tres" id="2_cj5c8"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/birmingham_area_2.tres" id="3_f14ub"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/birmingham_area_3.tres" id="4_42s1q"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/birmingham_area_4.tres" id="5_b15rd"]
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="6_l5kr7"]
+[ext_resource type="Resource" uid="uid://ddjnynf8d8ajd" path="res://definitions/link/link_tres/birmingham_coventry_link.tres" id="7_g8xfn"]
+[ext_resource type="Resource" uid="uid://brhxtkx1r13ic" path="res://definitions/link/link_tres/birmingham_dudley_link.tres" id="8_5mkpp"]
+[ext_resource type="Resource" uid="uid://dv7fyogg48kdu" path="res://definitions/link/link_tres/birmingham_nuneaton_link.tres" id="9_mjgm0"]
+[ext_resource type="Resource" uid="uid://bsv0vlxoqfavb" path="res://definitions/link/link_tres/birmingham_oxford_link.tres" id="10_kv7aq"]
+[ext_resource type="Resource" uid="uid://dthcvh7mrewqv" path="res://definitions/link/link_tres/birmingham_redditch_link.tres" id="11_7g2x0"]
+[ext_resource type="Resource" uid="uid://btth6nd3k8xg" path="res://definitions/link/link_tres/birmingham_tamworth_link.tres" id="12_8imw2"]
+[ext_resource type="Resource" uid="uid://cxei11usynq0l" path="res://definitions/link/link_tres/birmingham_walsall_link.tres" id="13_pg3i5"]
+[ext_resource type="Resource" uid="uid://i7on7g73ht7" path="res://definitions/link/link_tres/birmingham_worcester_link.tres" id="14_foyto"]
 
 [resource]
 script = ExtResource("1")
 id = &"birmingham"
 display_name = "伯明翰"
+owned_area = Array[ExtResource("1_v8oal")]([ExtResource("2_cj5c8"), ExtResource("3_f14ub"), ExtResource("4_42s1q"), ExtResource("5_b15rd")])
+owned_link = Array[ExtResource("6_l5kr7")]([ExtResource("7_g8xfn"), ExtResource("8_5mkpp"), ExtResource("9_mjgm0"), ExtResource("10_kv7aq"), ExtResource("11_7g2x0"), ExtResource("12_8imw2"), ExtResource("13_pg3i5"), ExtResource("14_foyto")])

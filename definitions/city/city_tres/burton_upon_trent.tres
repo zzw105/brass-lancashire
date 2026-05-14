@@ -1,10 +1,20 @@
 [gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://capgfv3cv0m0r"]
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/burton_upon_trent_area_1.tres" id="2_haqsl"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/burton_upon_trent_area_2.tres" id="3_emupj"]
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="4_xdonx"]
+[ext_resource type="Resource" uid="uid://83efnex45fo1" path="res://definitions/link/link_tres/burton_upon_trent_cannock_link.tres" id="5_3yv4w"]
+[ext_resource type="Resource" uid="uid://dl7shxaycgx0v" path="res://definitions/link/link_tres/burton_upon_trent_tamworth_link.tres" id="6_wao1o"]
+[ext_resource type="Resource" uid="uid://boiwby18o74bq" path="res://definitions/link/link_tres/burton_upon_trent_walsall_link.tres" id="7_npbxn"]
+[ext_resource type="Resource" uid="uid://c5j2x8mje2j7p" path="res://definitions/link/link_tres/derby_burton_upon_trent_link.tres" id="8_34v5a"]
+[ext_resource type="Resource" uid="uid://c3rfvpic3l3ml" path="res://definitions/link/link_tres/stone_burton_upon_trent_link.tres" id="9_av6px"]
 
 [resource]
 script = ExtResource("2_thncp")
 id = &"burton_upon_trent"
 display_name = "特伦河畔伯顿"
+owned_area = Array[ExtResource("1_lrwq2")]([ExtResource("2_haqsl"), ExtResource("3_emupj")])
+owned_link = Array[ExtResource("4_xdonx")]([ExtResource("5_3yv4w"), ExtResource("6_wao1o"), ExtResource("7_npbxn"), ExtResource("8_34v5a"), ExtResource("9_av6px")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

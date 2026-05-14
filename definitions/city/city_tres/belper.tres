@@ -5,10 +5,14 @@
 [ext_resource type="Resource" uid="uid://cuj1yexl44hxm" path="res://definitions/area/area_tres/belper_area_1.tres" id="2_p06jp"]
 [ext_resource type="Resource" uid="uid://clxgob4w1l0uj" path="res://definitions/area/area_tres/belper_area_2.tres" id="3_7alwd"]
 [ext_resource type="Resource" uid="uid://cq2dn40lq6ubt" path="res://definitions/area/area_tres/belper_area_3.tres" id="4_xxq5f"]
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="5_lr8o3"]
+[ext_resource type="Resource" uid="uid://dq4jfjese4enc" path="res://definitions/link/link_tres/belper_derby_link.tres" id="6_7ffoj"]
+[ext_resource type="Resource" uid="uid://6ogbm6gmnyl" path="res://definitions/link/link_tres/belper_leek_link.tres" id="7_1luig"]
 
 [resource]
 script = ExtResource("2_3n2vf")
 id = &"belper"
 display_name = "贝尔珀"
 owned_area = Array[ExtResource("1_gtw66")]([ExtResource("2_p06jp"), ExtResource("3_7alwd"), ExtResource("4_xxq5f")])
+owned_link = Array[ExtResource("5_lr8o3")]([ExtResource("6_7ffoj"), ExtResource("7_1luig")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

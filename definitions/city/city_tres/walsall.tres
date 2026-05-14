@@ -2,9 +2,19 @@
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/walsall_area_1.tres" id="2_a1"]
+[ext_resource type="Resource" path="res://definitions/area/area_tres/walsall_area_2.tres" id="3_a2"]
+[ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="4_l"]
+[ext_resource type="Resource" uid="uid://boiwby18o74bq" path="res://definitions/link/link_tres/burton_upon_trent_walsall_link.tres" id="5_l1"]
+[ext_resource type="Resource" uid="uid://cxei11usynq0l" path="res://definitions/link/link_tres/birmingham_walsall_link.tres" id="6_l2"]
+[ext_resource type="Resource" path="res://definitions/link/link_tres/cannock_walsall_link.tres" id="7_l3"]
+[ext_resource type="Resource" path="res://definitions/link/link_tres/walsall_tamworth_link.tres" id="8_l4"]
+[ext_resource type="Resource" path="res://definitions/link/link_tres/walsall_wolverhampton_link.tres" id="9_l5"]
 
 [resource]
 script = ExtResource("2_thncp")
 id = &"walsall"
 display_name = "沃尔索尔"
+owned_area = Array[ExtResource("1_lrwq2")]([ExtResource("2_a1"), ExtResource("3_a2")])
+owned_link = Array[ExtResource("4_l")]([ExtResource("5_l1"), ExtResource("6_l2"), ExtResource("7_l3"), ExtResource("8_l4"), ExtResource("9_l5")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

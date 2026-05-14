@@ -1,11 +1,16 @@
 [gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://cyi8m2jxrdxwt"]
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
+[ext_resource type="Resource" uid="uid://bcxt45tg3evt6" path="res://definitions/market/market_tres/gloucester_market.tres" id="1_pkxvs"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="2_0pp41"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
+[ext_resource type="Resource" uid="uid://c5t7n0jvh0o1t" path="res://definitions/link/link_tres/redditch_gloucester_link.tres" id="3_l1"]
+[ext_resource type="Resource" uid="uid://b8cklgydde6tq" path="res://definitions/link/link_tres/walsall_tamworth_link.tres" id="4_l2"]
 
 [resource]
 script = ExtResource("2_thncp")
 id = &"gloucester"
 display_name = "格洛斯特"
+market_info = ExtResource("1_pkxvs")
+owned_link = Array[ExtResource("2_0pp41")]([ExtResource("3_l1"), ExtResource("4_l2")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"

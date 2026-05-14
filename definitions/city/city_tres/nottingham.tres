@@ -4,10 +4,13 @@
 [ext_resource type="Resource" path="res://definitions/market/market_tres/nottingham_market.tres" id="1_lufd8"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="3_voog3"]
+[ext_resource type="Resource" uid="uid://c643qrf5dhsuu" path="res://definitions/link/link_tres/derby_nottingham_link.tres" id="4_l1"]
 
 [resource]
 script = ExtResource("2_thncp")
 id = &"nottingham"
 display_name = "诺丁汉"
 market_info = ExtResource("1_lufd8")
+owned_area = Array[ExtResource("1_lrwq2")]([])
+owned_link = Array[ExtResource("3_voog3")]([ExtResource("4_l1")])
 metadata/_custom_type_script = "uid://dbcfhcmpiwx8h"
