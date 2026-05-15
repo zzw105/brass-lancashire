@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/nuneaton_area_1.tres" id="2_a1"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/nuneaton_area_2.tres" id="3_a2"]
+[ext_resource type="Resource" uid="uid://b7hgufc5m7ron" path="res://definitions/area/area_tres/nuneaton_area_1.tres" id="2_a1"]
+[ext_resource type="Resource" uid="uid://cikfqtfq40s4k" path="res://definitions/area/area_tres/nuneaton_area_2.tres" id="3_a2"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="4_l"]
 [ext_resource type="Resource" uid="uid://bxltb0ae6131f" path="res://definitions/link/link_tres/nuneaton_coventry_link.tres" id="5_l1"]
 [ext_resource type="Resource" uid="uid://dp1hr44lv2rog" path="res://definitions/link/link_tres/nuneaton_tamworth_link.tres" id="6_l2"]

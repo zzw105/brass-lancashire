@@ -2,13 +2,13 @@
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/wolverhampton_area_1.tres" id="2_a1"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/wolverhampton_area_2.tres" id="3_a2"]
+[ext_resource type="Resource" uid="uid://bglgaep1gul8p" path="res://definitions/area/area_tres/wolverhampton_area_1.tres" id="2_a1"]
+[ext_resource type="Resource" uid="uid://brbfcgu7rrvav" path="res://definitions/area/area_tres/wolverhampton_area_2.tres" id="3_a2"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="4_l"]
-[ext_resource type="Resource" path="res://definitions/link/link_tres/cannock_wolverhampton_link.tres" id="5_l1"]
-[ext_resource type="Resource" path="res://definitions/link/link_tres/walsall_wolverhampton_link.tres" id="6_l2"]
-[ext_resource type="Resource" path="res://definitions/link/link_tres/wolverhampton_colbrookdale_link.tres" id="7_l3"]
-[ext_resource type="Resource" path="res://definitions/link/link_tres/wolverhampton_dudley_link.tres" id="8_l4"]
+[ext_resource type="Resource" uid="uid://dyj0c6b2v14sn" path="res://definitions/link/link_tres/cannock_wolverhampton_link.tres" id="5_l1"]
+[ext_resource type="Resource" uid="uid://cut7oh7hpg1pa" path="res://definitions/link/link_tres/walsall_wolverhampton_link.tres" id="6_l2"]
+[ext_resource type="Resource" uid="uid://cbg3hgk31sre1" path="res://definitions/link/link_tres/wolverhampton_colbrookdale_link.tres" id="7_l3"]
+[ext_resource type="Resource" uid="uid://nb3o8nlargae" path="res://definitions/link/link_tres/wolverhampton_dudley_link.tres" id="8_l4"]
 
 [resource]
 script = ExtResource("2_thncp")

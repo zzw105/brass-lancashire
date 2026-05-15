@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/rural_brewery_1_area_1.tres" id="2_a1"]
+[ext_resource type="Resource" uid="uid://bamf7eqxjqor0" path="res://definitions/area/area_tres/rural_brewery_1_area_1.tres" id="2_a1"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="4_l"]
-[ext_resource type="Resource" path="res://definitions/link/link_tres/cannock_rural_brewery_1_link.tres" id="5_l1"]
+[ext_resource type="Resource" uid="uid://b8yqw1lm5rmei" path="res://definitions/link/link_tres/cannock_rural_brewery_1_link.tres" id="5_l1"]
 
 [resource]
 script = ExtResource("2_thncp")

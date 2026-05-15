@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/colbrookdale_area_1.tres" id="2_a1"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/colbrookdale_area_2.tres" id="3_a2"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/colbrookdale_area_3.tres" id="4_a3"]
+[ext_resource type="Resource" uid="uid://bl015owbsysb7" path="res://definitions/area/area_tres/colbrookdale_area_1.tres" id="2_a1"]
+[ext_resource type="Resource" uid="uid://bf3pesi557seu" path="res://definitions/area/area_tres/colbrookdale_area_2.tres" id="3_a2"]
+[ext_resource type="Resource" uid="uid://cnhp5ghw7mcek" path="res://definitions/area/area_tres/colbrookdale_area_3.tres" id="4_a3"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="5_l"]
 [ext_resource type="Resource" uid="uid://bnyip53jltapd" path="res://definitions/link/link_tres/kidderminster_colbrookdale_link.tres" id="6_l1"]
 [ext_resource type="Resource" uid="uid://cbg3hgk31sre1" path="res://definitions/link/link_tres/wolverhampton_colbrookdale_link.tres" id="7_l2"]

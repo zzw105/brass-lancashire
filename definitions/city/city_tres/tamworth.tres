@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://bsc2jcpy7bn1f"]
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/tamworth_area_1.tres" id="2_a1"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/tamworth_area_2.tres" id="3_a2"]
+[ext_resource type="Resource" uid="uid://djrpy8lonoelc" path="res://definitions/area/area_tres/tamworth_area_1.tres" id="2_a1"]
+[ext_resource type="Resource" uid="uid://b8lbic64xais0" path="res://definitions/area/area_tres/tamworth_area_2.tres" id="3_a2"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="4_l"]
 [ext_resource type="Resource" uid="uid://dl7shxaycgx0v" path="res://definitions/link/link_tres/burton_upon_trent_tamworth_link.tres" id="5_l1"]
 [ext_resource type="Resource" uid="uid://dp1hr44lv2rog" path="res://definitions/link/link_tres/nuneaton_tamworth_link.tres" id="6_l2"]

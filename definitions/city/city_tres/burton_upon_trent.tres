@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="CityDefinition" format=3 uid="uid://capgfv3cv0m0r"]
 
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="1_lrwq2"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/burton_upon_trent_area_1.tres" id="2_haqsl"]
+[ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/burton_upon_trent_area_1.tres" id="2_haqsl"]
 [ext_resource type="Script" uid="uid://dbcfhcmpiwx8h" path="res://definitions/city/city_definition.gd" id="2_thncp"]
-[ext_resource type="Resource" path="res://definitions/area/area_tres/burton_upon_trent_area_2.tres" id="3_emupj"]
+[ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/burton_upon_trent_area_2.tres" id="3_emupj"]
 [ext_resource type="Script" uid="uid://dd0y2ligohvf3" path="res://definitions/link/link_definition.gd" id="4_xdonx"]
 [ext_resource type="Resource" uid="uid://83efnex45fo1" path="res://definitions/link/link_tres/burton_upon_trent_cannock_link.tres" id="5_3yv4w"]
 [ext_resource type="Resource" uid="uid://dl7shxaycgx0v" path="res://definitions/link/link_tres/burton_upon_trent_tamworth_link.tres" id="6_wao1o"]
