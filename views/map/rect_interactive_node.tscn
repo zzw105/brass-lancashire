@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://ddfvmts7w48ns"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xdg5f"]
+size = Vector2(50, 50)
+
+[node name="RectInteractiveNode" type="Area2D" unique_id=395292015]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1324588631]
+position = Vector2(25, 25)
+shape = SubResource("RectangleShape2D_xdg5f")
+
+[node name="Highlight" type="ColorRect" parent="." unique_id=593443701]
+offset_right = 50.0
+offset_bottom = 50.0
+mouse_filter = 2
+color = Color(1, 0.9, 0.3, 0.4)
+
+[node name="BuildingAnchor" type="Marker2D" parent="." unique_id=1980802384]
+position = Vector2(25, 25)

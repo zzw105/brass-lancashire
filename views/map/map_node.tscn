@@ -12,6 +12,11 @@
 [ext_resource type="Resource" uid="uid://cuj1yexl44hxm" path="res://definitions/area/area_tres/belper_area_1.tres" id="8_435uw"]
 [ext_resource type="Resource" uid="uid://clxgob4w1l0uj" path="res://definitions/area/area_tres/belper_area_2.tres" id="9_coikg"]
 [ext_resource type="Resource" uid="uid://cq2dn40lq6ubt" path="res://definitions/area/area_tres/belper_area_3.tres" id="10_m2527"]
+[ext_resource type="Resource" uid="uid://b5irm4pbi8whc" path="res://definitions/area/area_tres/derby_area_3.tres" id="13_m2527"]
+[ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/uttoxeter_area_1.tres" id="14_a1078"]
+[ext_resource type="Resource" uid="uid://d2ndwjdwquuqt" path="res://definitions/area/area_tres/uttoxeter_area_2.tres" id="15_4huhg"]
+[ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/stone_area_1.tres" id="16_2pjyh"]
+[ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/stone_area_2.tres" id="17_r6we1"]
 
 [sub_resource type="GDScript" id="GDScript_ap3q4"]
 script/source = "extends Node2D
@@ -79,22 +84,39 @@ scale = Vector2(3.542, 3.542)
 area_data = ExtResource("10_m2527")
 
 [node name="DerbyArea1" parent="AreaBox" unique_id=662309811 instance=ExtResource("2_ap3q4")]
-position = Vector2(3050.002, 937.2609)
+position = Vector2(2959, 754)
 scale = Vector2(3.542, 3.542)
 area_data = ExtResource("3_b4lx6")
 
 [node name="DerbyArea2" parent="AreaBox" unique_id=1319112418 instance=ExtResource("2_ap3q4")]
-position = Vector2(2863.221, 936.80786)
+position = Vector2(2869, 942.00006)
 scale = Vector2(3.542, 3.542)
 area_data = ExtResource("4_b4lx6")
 
-[node name="AreaNode2" parent="AreaBox" unique_id=1558547002 instance=ExtResource("2_ap3q4")]
-position = Vector2(1240.2965, 918.9941)
+[node name="DerbyArea3" parent="AreaBox" unique_id=840549924 instance=ExtResource("2_ap3q4")]
+position = Vector2(3054, 940)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("13_m2527")
 
-[node name="AreaNode" parent="AreaBox" unique_id=875714360 instance=ExtResource("2_ap3q4")]
+[node name="UttoxeterArea1" parent="AreaBox" unique_id=349555210 instance=ExtResource("2_ap3q4")]
+position = Vector2(2083.1453, 848.293)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("14_a1078")
+
+[node name="UttoxeterArea2" parent="AreaBox" unique_id=1991877340 instance=ExtResource("2_ap3q4")]
+position = Vector2(2270.2844, 850.3194)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("15_4huhg")
+
+[node name="StoneArea1" parent="AreaBox" unique_id=875714360 instance=ExtResource("2_ap3q4")]
 position = Vector2(1050.1538, 919.4256)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("16_2pjyh")
+
+[node name="StoneArea2" parent="AreaBox" unique_id=1558547002 instance=ExtResource("2_ap3q4")]
+position = Vector2(1240.2965, 918.9941)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("17_r6we1")
 
 [node name="AreaNode4" parent="AreaBox" unique_id=1046090527 instance=ExtResource("2_ap3q4")]
 position = Vector2(1426.7782, 1294.2158)
@@ -102,18 +124,6 @@ scale = Vector2(3.542, 3.542)
 
 [node name="AreaNode5" parent="AreaBox" unique_id=138369064 instance=ExtResource("2_ap3q4")]
 position = Vector2(1614.134, 1294.8472)
-scale = Vector2(3.542, 3.542)
-
-[node name="AreaNode8" parent="AreaBox" unique_id=349555210 instance=ExtResource("2_ap3q4")]
-position = Vector2(2083.1453, 848.293)
-scale = Vector2(3.542, 3.542)
-
-[node name="AreaNode14" parent="AreaBox" unique_id=840549924 instance=ExtResource("2_ap3q4")]
-position = Vector2(2959.7458, 754.1799)
-scale = Vector2(3.542, 3.542)
-
-[node name="AreaNode15" parent="AreaBox" unique_id=1991877340 instance=ExtResource("2_ap3q4")]
-position = Vector2(2270.2844, 850.3194)
 scale = Vector2(3.542, 3.542)
 
 [node name="AreaNode16" parent="AreaBox" unique_id=1762633860 instance=ExtResource("2_ap3q4")]

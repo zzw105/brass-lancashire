@@ -8,8 +8,6 @@ func _ready():
 	DataManager.load_definitions()
 	print("=== 完成加载静态数据 ===")
 
-	print(DataManager.areas)
-
 	print("=== 开始加载游戏数据 ===")
 	GameState.setup()
 	print("=== 完成加载游戏数据 ===")
