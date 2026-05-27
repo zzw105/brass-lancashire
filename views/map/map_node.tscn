@@ -14,8 +14,10 @@
 [ext_resource type="Resource" uid="uid://cq2dn40lq6ubt" path="res://definitions/area/area_tres/belper_area_3.tres" id="10_m2527"]
 [ext_resource type="Resource" uid="uid://b5irm4pbi8whc" path="res://definitions/area/area_tres/derby_area_3.tres" id="13_m2527"]
 [ext_resource type="Resource" uid="uid://d2ndwjdwquuqt" path="res://definitions/area/area_tres/uttoxeter_area_2.tres" id="15_4huhg"]
+[ext_resource type="Resource" uid="uid://c382mvrllo7w" path="res://definitions/area/area_tres/stone_area_1.tres" id="16_3dh8u"]
 [ext_resource type="Resource" uid="uid://d0se6sn0nhfkq" path="res://definitions/area/area_tres/stafford_area_1.tres" id="16_5g45r"]
 [ext_resource type="Resource" uid="uid://fy4cgo1gyder" path="res://definitions/area/area_tres/stafford_area_2.tres" id="17_4huhg"]
+[ext_resource type="Resource" uid="uid://c382mvrllo7e" path="res://definitions/area/area_tres/stone_area_2.tres" id="17_oacw7"]
 [ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/uttoxeter_area_1.tres" id="17_r6we1"]
 [ext_resource type="Resource" uid="uid://dv0mn8u4rw2wj" path="res://definitions/area/area_tres/burton_upon_trent_area_1.tres" id="18_r6we1"]
 [ext_resource type="Resource" uid="uid://eyqgse5crk7w" path="res://definitions/area/area_tres/burton_upon_trent_area_2.tres" id="19_xrdsp"]
@@ -143,12 +145,12 @@ area_data = ExtResource("15_4huhg")
 [node name="StoneArea1" parent="AreaBox" unique_id=875714360 instance=ExtResource("2_ap3q4")]
 position = Vector2(1050.1538, 919.4256)
 scale = Vector2(3.542, 3.542)
-area_data = ExtResource("17_r6we1")
+area_data = ExtResource("16_3dh8u")
 
 [node name="StoneArea2" parent="AreaBox" unique_id=1558547002 instance=ExtResource("2_ap3q4")]
 position = Vector2(1240.2965, 918.9941)
 scale = Vector2(3.542, 3.542)
-area_data = ExtResource("17_r6we1")
+area_data = ExtResource("17_oacw7")
 
 [node name="StaffordArea1" parent="AreaBox" unique_id=1046090527 instance=ExtResource("2_ap3q4")]
 position = Vector2(1426.7782, 1294.2158)
