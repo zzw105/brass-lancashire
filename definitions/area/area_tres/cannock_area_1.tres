@@ -2,8 +2,11 @@
 
 [ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definition.gd" id="1_vw5ku"]
 [ext_resource type="Script" uid="uid://cvcs8h2d6mwjm" path="res://definitions/area/area_definition.gd" id="2_vupss"]
+[ext_resource type="Resource" uid="uid://ch5evscf6q0mq" path="res://definitions/industry/industry_tres/manufacturing_industry.tres" id="3_aaaaa"]
+[ext_resource type="Resource" uid="uid://dnp1wuh3n7w36" path="res://definitions/industry/industry_tres/coal_industry.tres" id="4_bbbbb"]
 
 [resource]
 script = ExtResource("2_vupss")
 id = &"cannock_area_1"
+can_industry_list = Array[ExtResource("1_vw5ku")]([ExtResource("3_aaaaa"), ExtResource("4_bbbbb")])
 metadata/_custom_type_script = "uid://cvcs8h2d6mwjm"

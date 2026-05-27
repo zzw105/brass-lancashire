@@ -13,10 +13,42 @@
 [ext_resource type="Resource" uid="uid://clxgob4w1l0uj" path="res://definitions/area/area_tres/belper_area_2.tres" id="9_coikg"]
 [ext_resource type="Resource" uid="uid://cq2dn40lq6ubt" path="res://definitions/area/area_tres/belper_area_3.tres" id="10_m2527"]
 [ext_resource type="Resource" uid="uid://b5irm4pbi8whc" path="res://definitions/area/area_tres/derby_area_3.tres" id="13_m2527"]
-[ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/uttoxeter_area_1.tres" id="14_a1078"]
 [ext_resource type="Resource" uid="uid://d2ndwjdwquuqt" path="res://definitions/area/area_tres/uttoxeter_area_2.tres" id="15_4huhg"]
-[ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/stone_area_1.tres" id="16_2pjyh"]
-[ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/stone_area_2.tres" id="17_r6we1"]
+[ext_resource type="Resource" uid="uid://d0se6sn0nhfkq" path="res://definitions/area/area_tres/stafford_area_1.tres" id="16_5g45r"]
+[ext_resource type="Resource" uid="uid://fy4cgo1gyder" path="res://definitions/area/area_tres/stafford_area_2.tres" id="17_4huhg"]
+[ext_resource type="Resource" uid="uid://c382mvrllo7q" path="res://definitions/area/area_tres/uttoxeter_area_1.tres" id="17_r6we1"]
+[ext_resource type="Resource" uid="uid://dv0mn8u4rw2wj" path="res://definitions/area/area_tres/burton_upon_trent_area_1.tres" id="18_r6we1"]
+[ext_resource type="Resource" uid="uid://eyqgse5crk7w" path="res://definitions/area/area_tres/burton_upon_trent_area_2.tres" id="19_xrdsp"]
+[ext_resource type="Resource" uid="uid://bamf7eqxjqor0" path="res://definitions/area/area_tres/rural_brewery_1_area_1.tres" id="20_bwsho"]
+[ext_resource type="Resource" uid="uid://p4y5c2mep6hf" path="res://definitions/area/area_tres/cannock_area_1.tres" id="21_603rj"]
+[ext_resource type="Resource" uid="uid://btik6o48fx420" path="res://definitions/area/area_tres/cannock_area_2.tres" id="22_3dh8u"]
+[ext_resource type="Resource" uid="uid://djrpy8lonoelc" path="res://definitions/area/area_tres/tamworth_area_1.tres" id="23_oacw7"]
+[ext_resource type="Resource" uid="uid://b8lbic64xais0" path="res://definitions/area/area_tres/tamworth_area_2.tres" id="24_bldlu"]
+[ext_resource type="Resource" uid="uid://bl015owbsysb7" path="res://definitions/area/area_tres/colbrookdale_area_1.tres" id="25_ov66r"]
+[ext_resource type="Resource" uid="uid://bf3pesi557seu" path="res://definitions/area/area_tres/colbrookdale_area_2.tres" id="26_haogd"]
+[ext_resource type="Resource" uid="uid://cnhp5ghw7mcek" path="res://definitions/area/area_tres/colbrookdale_area_3.tres" id="27_2k1fm"]
+[ext_resource type="Resource" uid="uid://bglgaep1gul8p" path="res://definitions/area/area_tres/wolverhampton_area_1.tres" id="28_i8c8j"]
+[ext_resource type="Resource" uid="uid://brbfcgu7rrvav" path="res://definitions/area/area_tres/wolverhampton_area_2.tres" id="29_t7f0b"]
+[ext_resource type="Resource" uid="uid://brja481ukjei" path="res://definitions/area/area_tres/dudley_area_1.tres" id="30_o8tfj"]
+[ext_resource type="Resource" uid="uid://todwgo2edq5r" path="res://definitions/area/area_tres/dudley_area_2.tres" id="31_n48ev"]
+[ext_resource type="Resource" uid="uid://cnnjfsuyxer8o" path="res://definitions/area/area_tres/walsall_area_1.tres" id="32_yxxcq"]
+[ext_resource type="Resource" uid="uid://cqa0c5hlop6ny" path="res://definitions/area/area_tres/walsall_area_2.tres" id="33_1loyf"]
+[ext_resource type="Resource" uid="uid://ccr5trgnn40kd" path="res://definitions/area/area_tres/birmingham_area_1.tres" id="34_xg1jg"]
+[ext_resource type="Resource" uid="uid://c1gn8yx64akfm" path="res://definitions/area/area_tres/birmingham_area_2.tres" id="35_fqhw7"]
+[ext_resource type="Resource" uid="uid://bcy0jeh1iq670" path="res://definitions/area/area_tres/birmingham_area_3.tres" id="36_jjni5"]
+[ext_resource type="Resource" uid="uid://b8314ataa3q8i" path="res://definitions/area/area_tres/birmingham_area_4.tres" id="37_kfuac"]
+[ext_resource type="Resource" uid="uid://b7hgufc5m7ron" path="res://definitions/area/area_tres/nuneaton_area_1.tres" id="38_hu3fu"]
+[ext_resource type="Resource" uid="uid://cikfqtfq40s4k" path="res://definitions/area/area_tres/nuneaton_area_2.tres" id="39_d7ate"]
+[ext_resource type="Resource" uid="uid://bauo8tmw8pwnw" path="res://definitions/area/area_tres/coventry_area_2.tres" id="40_0e0tb"]
+[ext_resource type="Resource" uid="uid://xotw3xo7scty" path="res://definitions/area/area_tres/coventry_area_3.tres" id="41_lebun"]
+[ext_resource type="Resource" uid="uid://qq2exbysgnqf" path="res://definitions/area/area_tres/coventry_area_1.tres" id="42_ss8pc"]
+[ext_resource type="Resource" uid="uid://dpxdy8ny2mbic" path="res://definitions/area/area_tres/redditch_area_1.tres" id="43_q54jc"]
+[ext_resource type="Resource" uid="uid://blg3etqvcbp7m" path="res://definitions/area/area_tres/redditch_area_2.tres" id="44_ersf5"]
+[ext_resource type="Resource" uid="uid://d33pwsv0m4xra" path="res://definitions/area/area_tres/kidderminster_area_1.tres" id="45_a4ncn"]
+[ext_resource type="Resource" uid="uid://dwl6j1uqdtxsy" path="res://definitions/area/area_tres/kidderminster_area_2.tres" id="46_h8r36"]
+[ext_resource type="Resource" uid="uid://goninp1ojtq0" path="res://definitions/area/area_tres/worcester_area_1.tres" id="47_chfp3"]
+[ext_resource type="Resource" uid="uid://dgkv80gy30lsv" path="res://definitions/area/area_tres/rural_brewery_2_area_1.tres" id="48_kxdn3"]
+[ext_resource type="Resource" uid="uid://db4qht75f7g6b" path="res://definitions/area/area_tres/worcester_area_2.tres" id="49_khx1p"]
 
 [sub_resource type="GDScript" id="GDScript_ap3q4"]
 script/source = "extends Node2D
@@ -101,7 +133,7 @@ area_data = ExtResource("13_m2527")
 [node name="UttoxeterArea1" parent="AreaBox" unique_id=349555210 instance=ExtResource("2_ap3q4")]
 position = Vector2(2083.1453, 848.293)
 scale = Vector2(3.542, 3.542)
-area_data = ExtResource("14_a1078")
+area_data = ExtResource("17_r6we1")
 
 [node name="UttoxeterArea2" parent="AreaBox" unique_id=1991877340 instance=ExtResource("2_ap3q4")]
 position = Vector2(2270.2844, 850.3194)
@@ -111,145 +143,179 @@ area_data = ExtResource("15_4huhg")
 [node name="StoneArea1" parent="AreaBox" unique_id=875714360 instance=ExtResource("2_ap3q4")]
 position = Vector2(1050.1538, 919.4256)
 scale = Vector2(3.542, 3.542)
-area_data = ExtResource("16_2pjyh")
+area_data = ExtResource("17_r6we1")
 
 [node name="StoneArea2" parent="AreaBox" unique_id=1558547002 instance=ExtResource("2_ap3q4")]
 position = Vector2(1240.2965, 918.9941)
 scale = Vector2(3.542, 3.542)
 area_data = ExtResource("17_r6we1")
 
-[node name="AreaNode4" parent="AreaBox" unique_id=1046090527 instance=ExtResource("2_ap3q4")]
+[node name="StaffordArea1" parent="AreaBox" unique_id=1046090527 instance=ExtResource("2_ap3q4")]
 position = Vector2(1426.7782, 1294.2158)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("16_5g45r")
 
-[node name="AreaNode5" parent="AreaBox" unique_id=138369064 instance=ExtResource("2_ap3q4")]
+[node name="StaffordArea2" parent="AreaBox" unique_id=138369064 instance=ExtResource("2_ap3q4")]
 position = Vector2(1614.134, 1294.8472)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("17_4huhg")
 
-[node name="AreaNode16" parent="AreaBox" unique_id=1762633860 instance=ExtResource("2_ap3q4")]
+[node name="BurtonUponTrentArea1" parent="AreaBox" unique_id=1762633860 instance=ExtResource("2_ap3q4")]
 position = Vector2(2554.398, 1410.3298)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("18_r6we1")
 
-[node name="AreaNode17" parent="AreaBox" unique_id=1965192736 instance=ExtResource("2_ap3q4")]
+[node name="BurtonUponTrentArea2" parent="AreaBox" unique_id=1965192736 instance=ExtResource("2_ap3q4")]
 position = Vector2(2743.1436, 1410.1571)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("19_xrdsp")
 
-[node name="AreaNode18" parent="AreaBox" unique_id=28892035 instance=ExtResource("2_ap3q4")]
+[node name="RuralBrewery1Area1" parent="AreaBox" unique_id=28892035 instance=ExtResource("2_ap3q4")]
 position = Vector2(1105.7869, 1653.4573)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("20_bwsho")
 
-[node name="AreaNode19" parent="AreaBox" unique_id=1303037337 instance=ExtResource("2_ap3q4")]
+[node name="CannockArea1" parent="AreaBox" unique_id=1303037337 instance=ExtResource("2_ap3q4")]
 position = Vector2(1719.6456, 1703.3412)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("21_603rj")
 
-[node name="AreaNode20" parent="AreaBox" unique_id=1903320939 instance=ExtResource("2_ap3q4")]
+[node name="CannockArea2" parent="AreaBox" unique_id=1903320939 instance=ExtResource("2_ap3q4")]
 position = Vector2(1907.0381, 1703.3413)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("22_3dh8u")
 
-[node name="AreaNode21" parent="AreaBox" unique_id=375678898 instance=ExtResource("2_ap3q4")]
+[node name="TamworthArea1" parent="AreaBox" unique_id=375678898 instance=ExtResource("2_ap3q4")]
 position = Vector2(2613.6982, 1912.817)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("23_oacw7")
 
-[node name="AreaNode22" parent="AreaBox" unique_id=1491590884 instance=ExtResource("2_ap3q4")]
+[node name="TamworthArea2" parent="AreaBox" unique_id=1491590884 instance=ExtResource("2_ap3q4")]
 position = Vector2(2797.2417, 1911.5306)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("24_bldlu")
 
-[node name="AreaNode23" parent="AreaBox" unique_id=1296601521 instance=ExtResource("2_ap3q4")]
+[node name="ColbrookdaleArea1" parent="AreaBox" unique_id=1296601521 instance=ExtResource("2_ap3q4")]
 position = Vector2(842.5818, 2060.6846)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("25_ov66r")
 
-[node name="AreaNode24" parent="AreaBox" unique_id=1129288167 instance=ExtResource("2_ap3q4")]
+[node name="ColbrookdaleArea2" parent="AreaBox" unique_id=1129288167 instance=ExtResource("2_ap3q4")]
 position = Vector2(748.6068, 2248.762)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("26_haogd")
 
-[node name="AreaNode25" parent="AreaBox" unique_id=1488016208 instance=ExtResource("2_ap3q4")]
+[node name="ColbrookdaleArea3" parent="AreaBox" unique_id=1488016208 instance=ExtResource("2_ap3q4")]
 position = Vector2(933.51917, 2247.5344)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("27_2k1fm")
 
-[node name="AreaNode26" parent="AreaBox" unique_id=895748419 instance=ExtResource("2_ap3q4")]
+[node name="WolverhamptonArea1" parent="AreaBox" unique_id=895748419 instance=ExtResource("2_ap3q4")]
 position = Vector2(1298.6617, 2072.672)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("28_i8c8j")
 
-[node name="AreaNode27" parent="AreaBox" unique_id=1634341730 instance=ExtResource("2_ap3q4")]
+[node name="WolverhamptonArea2" parent="AreaBox" unique_id=1634341730 instance=ExtResource("2_ap3q4")]
 position = Vector2(1486.7516, 2072.672)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("29_t7f0b")
 
-[node name="AreaNode28" parent="AreaBox" unique_id=2053100980 instance=ExtResource("2_ap3q4")]
+[node name="DudleyArea1" parent="AreaBox" unique_id=2053100980 instance=ExtResource("2_ap3q4")]
 position = Vector2(1484.9291, 2562.3845)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("30_o8tfj")
 
-[node name="AreaNode29" parent="AreaBox" unique_id=1786538727 instance=ExtResource("2_ap3q4")]
+[node name="DudleyArea2" parent="AreaBox" unique_id=1786538727 instance=ExtResource("2_ap3q4")]
 position = Vector2(1671.2091, 2562.132)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("31_n48ev")
 
-[node name="AreaNode30" parent="AreaBox" unique_id=902991435 instance=ExtResource("2_ap3q4")]
+[node name="WalsallArea1" parent="AreaBox" unique_id=902991435 instance=ExtResource("2_ap3q4")]
 position = Vector2(1943.8066, 2164.9646)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("32_yxxcq")
 
-[node name="AreaNode31" parent="AreaBox" unique_id=94844123 instance=ExtResource("2_ap3q4")]
+[node name="WalsallArea2" parent="AreaBox" unique_id=94844123 instance=ExtResource("2_ap3q4")]
 position = Vector2(2131.3267, 2164.4194)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("33_1loyf")
 
-[node name="AreaNode32" parent="AreaBox" unique_id=1628746209 instance=ExtResource("2_ap3q4")]
+[node name="BirminghamArea1" parent="AreaBox" unique_id=1628746209 instance=ExtResource("2_ap3q4")]
 position = Vector2(2338.6177, 2531.0688)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("34_xg1jg")
 
-[node name="AreaNode33" parent="AreaBox" unique_id=1257422287 instance=ExtResource("2_ap3q4")]
+[node name="BirminghamArea2" parent="AreaBox" unique_id=1257422287 instance=ExtResource("2_ap3q4")]
 position = Vector2(2523.9636, 2532.0754)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("35_fqhw7")
 
-[node name="AreaNode34" parent="AreaBox" unique_id=1800238996 instance=ExtResource("2_ap3q4")]
+[node name="BirminghamArea3" parent="AreaBox" unique_id=1800238996 instance=ExtResource("2_ap3q4")]
 position = Vector2(2337.062, 2718.1526)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("36_jjni5")
 
-[node name="AreaNode35" parent="AreaBox" unique_id=610105942 instance=ExtResource("2_ap3q4")]
+[node name="BirminghamArea4" parent="AreaBox" unique_id=610105942 instance=ExtResource("2_ap3q4")]
 position = Vector2(2521.8132, 2719.6165)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("37_kfuac")
 
-[node name="AreaNode36" parent="AreaBox" unique_id=377450338 instance=ExtResource("2_ap3q4")]
+[node name="NuneatonArea1" parent="AreaBox" unique_id=377450338 instance=ExtResource("2_ap3q4")]
 position = Vector2(2975.6824, 2316.7156)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("38_hu3fu")
 
-[node name="AreaNode37" parent="AreaBox" unique_id=38594324 instance=ExtResource("2_ap3q4")]
+[node name="NuneatonArea2" parent="AreaBox" unique_id=38594324 instance=ExtResource("2_ap3q4")]
 position = Vector2(3163.041, 2316.258)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("39_d7ate")
 
-[node name="AreaNode38" parent="AreaBox" unique_id=235105452 instance=ExtResource("2_ap3q4")]
-position = Vector2(3066.5479, 2843.0127)
-scale = Vector2(3.542, 3.542)
-
-[node name="AreaNode39" parent="AreaBox" unique_id=431455933 instance=ExtResource("2_ap3q4")]
-position = Vector2(3251.4817, 2845.026)
-scale = Vector2(3.542, 3.542)
-
-[node name="AreaNode40" parent="AreaBox" unique_id=492116324 instance=ExtResource("2_ap3q4")]
+[node name="CoventryArea1" parent="AreaBox" unique_id=492116324 instance=ExtResource("2_ap3q4")]
 position = Vector2(3158.5571, 2655.3796)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("42_ss8pc")
 
-[node name="AreaNode41" parent="AreaBox" unique_id=1781856656 instance=ExtResource("2_ap3q4")]
+[node name="CoventryArea2" parent="AreaBox" unique_id=235105452 instance=ExtResource("2_ap3q4")]
+position = Vector2(3066.5479, 2843.0127)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("40_0e0tb")
+
+[node name="CoventryArea3" parent="AreaBox" unique_id=431455933 instance=ExtResource("2_ap3q4")]
+position = Vector2(3251.4817, 2845.026)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("41_lebun")
+
+[node name="RedditchArea1" parent="AreaBox" unique_id=1781856656 instance=ExtResource("2_ap3q4")]
 position = Vector2(2148.0112, 3192.337)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("43_q54jc")
 
-[node name="AreaNode42" parent="AreaBox" unique_id=673463080 instance=ExtResource("2_ap3q4")]
+[node name="RedditchArea2" parent="AreaBox" unique_id=673463080 instance=ExtResource("2_ap3q4")]
 position = Vector2(2338.618, 3191.1013)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("44_ersf5")
 
-[node name="AreaNode43" parent="AreaBox" unique_id=1267816496 instance=ExtResource("2_ap3q4")]
+[node name="KidderminsterArea1" parent="AreaBox" unique_id=1267816496 instance=ExtResource("2_ap3q4")]
 position = Vector2(1210.2656, 2975.0386)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("45_a4ncn")
 
-[node name="AreaNode44" parent="AreaBox" unique_id=977443696 instance=ExtResource("2_ap3q4")]
+[node name="KidderminsterArea2" parent="AreaBox" unique_id=977443696 instance=ExtResource("2_ap3q4")]
 position = Vector2(1393.7269, 2976.3828)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("46_h8r36")
 
-[node name="AreaNode45" parent="AreaBox" unique_id=1836030493 instance=ExtResource("2_ap3q4")]
+[node name="WorcesterArea1" parent="AreaBox" unique_id=1836030493 instance=ExtResource("2_ap3q4")]
 position = Vector2(1260.7688, 3496.7776)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("47_chfp3")
 
-[node name="AreaNode47" parent="AreaBox" unique_id=1979846858 instance=ExtResource("2_ap3q4")]
-position = Vector2(948.92377, 3277.7524)
-scale = Vector2(3.542, 3.542)
-
-[node name="AreaNode46" parent="AreaBox" unique_id=1039521245 instance=ExtResource("2_ap3q4")]
+[node name="WorcesterArea2" parent="AreaBox" unique_id=1039521245 instance=ExtResource("2_ap3q4")]
 position = Vector2(1445.9768, 3495.8167)
 scale = Vector2(3.542, 3.542)
+area_data = ExtResource("49_khx1p")
+
+[node name="RuralBrewery2Area1" parent="AreaBox" unique_id=1979846858 instance=ExtResource("2_ap3q4")]
+position = Vector2(948.92377, 3277.7524)
+scale = Vector2(3.542, 3.542)
+area_data = ExtResource("48_kxdn3")
