@@ -6,4 +6,8 @@
 script = ExtResource("1_xqkrq")
 id = &"shrewsbury_market"
 display_name = "什鲁斯伯里市场"
+beer_reward = {
+"type": "score",
+"value": 4
+}
 metadata/_custom_type_script = "uid://didtsf4dex1y0"
