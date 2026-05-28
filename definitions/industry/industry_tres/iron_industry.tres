@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="IndustryData" format=3 uid="uid://bkeg8sbeq16x0"]
+[gd_resource type="Resource" script_class="IndustryDefinition" format=3 uid="uid://bkeg8sbeq16x0"]
 
 [ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definition.gd" id="1_majjj"]
 

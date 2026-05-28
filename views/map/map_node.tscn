@@ -91,6 +91,7 @@
 [ext_resource type="Resource" uid="uid://c5t7n0jvh0o1t" path="res://definitions/link/link_tres/redditch_gloucester_link.tres" id="87_kpofj"]
 [ext_resource type="Resource" uid="uid://dw0aw75ahqh46" path="res://definitions/link/link_tres/worcester_gloucester_link.tres" id="88_yr1yi"]
 [ext_resource type="Resource" uid="uid://dej1ksvhie34q" path="res://definitions/link/link_tres/kidderminster_worcester_rural_brewery_2_link.tres" id="89_uvurj"]
+[ext_resource type="PackedScene" uid="uid://b4mof0bgsly5y" path="res://views/card/industry_card_node.tscn" id="92_uvurj"]
 
 [sub_resource type="GDScript" id="GDScript_ap3q4"]
 script/source = "extends Node2D
@@ -558,3 +559,6 @@ link_data = ExtResource("81_6sywo")
 position = Vector2(2467.0002, 3100.0002)
 rotation = -3.057571
 link_data = ExtResource("79_wn1l0")
+
+[node name="Card" parent="." unique_id=457844910 instance=ExtResource("92_uvurj")]
+position = Vector2(430, 562)
