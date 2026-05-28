@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bsy5ucgo8gm4t"]
+
+[ext_resource type="PackedScene" uid="uid://ddfvmts7w48ns" path="res://views/map/components/rect_interactive_node/rect_interactive_node.tscn" id="1_t55ay"]
+[ext_resource type="Script" uid="uid://0vsbwigyfdfc" path="res://views/map/components/link_node/link_node.gd" id="1_x8lln"]
+
+[node name="LinkNode" type="Node2D" unique_id=1972565873]
+script = ExtResource("1_x8lln")
+
+[node name="RectInteractiveNode" parent="." unique_id=395292015 instance=ExtResource("1_t55ay")]
+scale = Vector2(0.45720702, 1.6356755)

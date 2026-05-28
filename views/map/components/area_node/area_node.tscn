@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://phymj8vqfcwy"]
 
-[ext_resource type="PackedScene" uid="uid://ddfvmts7w48ns" path="res://views/map/rect_interactive_node.tscn" id="1_8p1dr"]
-[ext_resource type="Script" uid="uid://cl1mpblloex8f" path="res://views/map/area_node.gd" id="1_ov0q7"]
+[ext_resource type="PackedScene" uid="uid://ddfvmts7w48ns" path="res://views/map/components/rect_interactive_node/rect_interactive_node.tscn" id="1_8p1dr"]
+[ext_resource type="Script" uid="uid://cl1mpblloex8f" path="res://views/map/components/area_node/area_node.gd" id="1_ov0q7"]
 
 [node name="AreaNode" type="Node2D" unique_id=922623382 groups=["area"]]
 script = ExtResource("1_ov0q7")

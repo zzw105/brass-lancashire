@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://du0yqm1u5dkto"]
 
 [ext_resource type="Texture2D" uid="uid://dhk0go4vig3r6" path="res://assets/img/map.jpg" id="1_7bf38"]
-[ext_resource type="PackedScene" uid="uid://phymj8vqfcwy" path="res://views/map/area_node.tscn" id="2_ap3q4"]
+[ext_resource type="PackedScene" uid="uid://phymj8vqfcwy" path="res://views/map/components/area_node/area_node.tscn" id="2_ap3q4"]
 [ext_resource type="Resource" uid="uid://b4ikugk1wmsoh" path="res://definitions/area/area_tres/derby_area_1.tres" id="3_b4lx6"]
 [ext_resource type="Resource" uid="uid://dfws0pd33m3d5" path="res://definitions/area/area_tres/stoke_area_1.tres" id="3_dqqcw"]
 [ext_resource type="Resource" uid="uid://c6ud6kkgpnl7n" path="res://definitions/area/area_tres/derby_area_2.tres" id="4_b4lx6"]
@@ -51,6 +51,46 @@
 [ext_resource type="Resource" uid="uid://goninp1ojtq0" path="res://definitions/area/area_tres/worcester_area_1.tres" id="47_chfp3"]
 [ext_resource type="Resource" uid="uid://dgkv80gy30lsv" path="res://definitions/area/area_tres/rural_brewery_2_area_1.tres" id="48_kxdn3"]
 [ext_resource type="Resource" uid="uid://db4qht75f7g6b" path="res://definitions/area/area_tres/worcester_area_2.tres" id="49_khx1p"]
+[ext_resource type="PackedScene" uid="uid://bsy5ucgo8gm4t" path="res://views/map/components/link_node/link_node.tscn" id="52_oacw7"]
+[ext_resource type="Resource" uid="uid://d2867b5g6vco5" path="res://definitions/link/link_tres/warrington_stoke_link.tres" id="53_haogd"]
+[ext_resource type="Resource" uid="uid://djlrrvkbmnfai" path="res://definitions/link/link_tres/stoke_leek_link.tres" id="54_2k1fm"]
+[ext_resource type="Resource" uid="uid://cfykmnbvv6dku" path="res://definitions/link/link_tres/stoke_stone_link.tres" id="55_i8c8j"]
+[ext_resource type="Resource" uid="uid://6ogbm6gmnyl" path="res://definitions/link/link_tres/belper_leek_link.tres" id="55_xg1jg"]
+[ext_resource type="Resource" uid="uid://cpfsb32bxo068" path="res://definitions/link/link_tres/stone_uttoxeter_link.tres" id="57_fqhw7"]
+[ext_resource type="Resource" uid="uid://66c81rl7dbyx" path="res://definitions/link/link_tres/derby_uttoxeter_link.tres" id="58_jjni5"]
+[ext_resource type="Resource" uid="uid://dq4jfjese4enc" path="res://definitions/link/link_tres/belper_derby_link.tres" id="59_kfuac"]
+[ext_resource type="Resource" uid="uid://c643qrf5dhsuu" path="res://definitions/link/link_tres/derby_nottingham_link.tres" id="60_hu3fu"]
+[ext_resource type="Resource" uid="uid://c3rfvpic3l3ml" path="res://definitions/link/link_tres/stone_burton_upon_trent_link.tres" id="61_d7ate"]
+[ext_resource type="Resource" uid="uid://ye278274xjaf" path="res://definitions/link/link_tres/stone_stafford_link.tres" id="62_0e0tb"]
+[ext_resource type="Resource" uid="uid://dgn6gqf0b2yxs" path="res://definitions/link/link_tres/cannock_stafford_link.tres" id="63_d7ate"]
+[ext_resource type="Resource" uid="uid://c5j2x8mje2j7p" path="res://definitions/link/link_tres/derby_burton_upon_trent_link.tres" id="63_lebun"]
+[ext_resource type="Resource" uid="uid://83efnex45fo1" path="res://definitions/link/link_tres/burton_upon_trent_cannock_link.tres" id="64_0e0tb"]
+[ext_resource type="Resource" uid="uid://b8yqw1lm5rmei" path="res://definitions/link/link_tres/cannock_rural_brewery_1_link.tres" id="66_lebun"]
+[ext_resource type="Resource" uid="uid://dyj0c6b2v14sn" path="res://definitions/link/link_tres/cannock_wolverhampton_link.tres" id="67_ss8pc"]
+[ext_resource type="Resource" uid="uid://bxgbulyyvgg0y" path="res://definitions/link/link_tres/cannock_walsall_link.tres" id="68_q54jc"]
+[ext_resource type="Resource" uid="uid://boiwby18o74bq" path="res://definitions/link/link_tres/burton_upon_trent_walsall_link.tres" id="69_fnc0i"]
+[ext_resource type="Resource" uid="uid://btth6nd3k8xg" path="res://definitions/link/link_tres/birmingham_tamworth_link.tres" id="69_xtnyj"]
+[ext_resource type="Resource" uid="uid://dl7shxaycgx0v" path="res://definitions/link/link_tres/burton_upon_trent_tamworth_link.tres" id="70_6sywo"]
+[ext_resource type="Resource" uid="uid://cxei11usynq0l" path="res://definitions/link/link_tres/birmingham_walsall_link.tres" id="70_17vqu"]
+[ext_resource type="Resource" uid="uid://dp1hr44lv2rog" path="res://definitions/link/link_tres/nuneaton_tamworth_link.tres" id="71_ec3sm"]
+[ext_resource type="Resource" uid="uid://cbg3hgk31sre1" path="res://definitions/link/link_tres/wolverhampton_colbrookdale_link.tres" id="71_t2ujw"]
+[ext_resource type="Resource" uid="uid://cut7oh7hpg1pa" path="res://definitions/link/link_tres/walsall_wolverhampton_link.tres" id="72_7ufuq"]
+[ext_resource type="Resource" uid="uid://bd3mpi6iviw1x" path="res://definitions/link/link_tres/colbrookdale_shrewsbury_link.tres" id="72_fnc0i"]
+[ext_resource type="Resource" uid="uid://bnyip53jltapd" path="res://definitions/link/link_tres/kidderminster_colbrookdale_link.tres" id="73_7ufuq"]
+[ext_resource type="Resource" uid="uid://brhxtkx1r13ic" path="res://definitions/link/link_tres/birmingham_dudley_link.tres" id="74_6sywo"]
+[ext_resource type="Resource" uid="uid://ddjnynf8d8ajd" path="res://definitions/link/link_tres/birmingham_coventry_link.tres" id="75_ec3sm"]
+[ext_resource type="Resource" uid="uid://dv7fyogg48kdu" path="res://definitions/link/link_tres/birmingham_nuneaton_link.tres" id="76_1krj7"]
+[ext_resource type="Resource" uid="uid://i7on7g73ht7" path="res://definitions/link/link_tres/birmingham_worcester_link.tres" id="77_dw3sv"]
+[ext_resource type="Resource" uid="uid://c43ghrrp2hwwu" path="res://definitions/link/link_tres/kidderminster_dudley_link.tres" id="78_1krj7"]
+[ext_resource type="Resource" uid="uid://bsv0vlxoqfavb" path="res://definitions/link/link_tres/birmingham_oxford_link.tres" id="78_ilgnf"]
+[ext_resource type="Resource" uid="uid://nb3o8nlargae" path="res://definitions/link/link_tres/wolverhampton_dudley_link.tres" id="79_dw3sv"]
+[ext_resource type="Resource" uid="uid://dthcvh7mrewqv" path="res://definitions/link/link_tres/birmingham_redditch_link.tres" id="79_wn1l0"]
+[ext_resource type="Resource" uid="uid://b8cklgydde6tq" path="res://definitions/link/link_tres/walsall_tamworth_link.tres" id="81_6sywo"]
+[ext_resource type="Resource" uid="uid://bxltb0ae6131f" path="res://definitions/link/link_tres/nuneaton_coventry_link.tres" id="83_dw3sv"]
+[ext_resource type="Resource" uid="uid://d2onkwjn37yel" path="res://definitions/link/link_tres/redditch_oxford_link.tres" id="86_wn1l0"]
+[ext_resource type="Resource" uid="uid://c5t7n0jvh0o1t" path="res://definitions/link/link_tres/redditch_gloucester_link.tres" id="87_kpofj"]
+[ext_resource type="Resource" uid="uid://dw0aw75ahqh46" path="res://definitions/link/link_tres/worcester_gloucester_link.tres" id="88_yr1yi"]
+[ext_resource type="Resource" uid="uid://dej1ksvhie34q" path="res://definitions/link/link_tres/kidderminster_worcester_rural_brewery_2_link.tres" id="89_uvurj"]
 
 [sub_resource type="GDScript" id="GDScript_ap3q4"]
 script/source = "extends Node2D
@@ -118,7 +158,7 @@ scale = Vector2(3.542, 3.542)
 area_data = ExtResource("10_m2527")
 
 [node name="DerbyArea1" parent="AreaBox" unique_id=662309811 instance=ExtResource("2_ap3q4")]
-position = Vector2(2959, 754)
+position = Vector2(2961, 754)
 scale = Vector2(3.542, 3.542)
 area_data = ExtResource("3_b4lx6")
 
@@ -321,3 +361,200 @@ area_data = ExtResource("49_khx1p")
 position = Vector2(948.92377, 3277.7524)
 scale = Vector2(3.542, 3.542)
 area_data = ExtResource("48_kxdn3")
+
+[node name="LinkBox" type="Node2D" parent="." unique_id=210592637]
+
+[node name="WarringtonStokeLink" parent="LinkBox" unique_id=1972565873 instance=ExtResource("52_oacw7")]
+position = Vector2(1380.0001, 374)
+rotation = -1.087063
+link_data = ExtResource("53_haogd")
+
+[node name="StokeLeekLink" parent="LinkBox" unique_id=725967330 instance=ExtResource("52_oacw7")]
+position = Vector2(1843, 360)
+rotation = -2.174126
+link_data = ExtResource("54_2k1fm")
+
+[node name="BelperLeekLink" parent="LinkBox" unique_id=45225217 instance=ExtResource("52_oacw7")]
+position = Vector2(2549, 284)
+rotation = -1.4126163
+link_data = ExtResource("55_xg1jg")
+
+[node name="StokeStoneLink" parent="LinkBox" unique_id=152076968 instance=ExtResource("52_oacw7")]
+position = Vector2(1450.0001, 867.00006)
+rotation = -2.3055418
+link_data = ExtResource("55_i8c8j")
+
+[node name="StoneUttoxeterLink" parent="LinkBox" unique_id=269646699 instance=ExtResource("52_oacw7")]
+position = Vector2(1770, 963.00006)
+rotation = -1.5985892
+link_data = ExtResource("57_fqhw7")
+
+[node name="DerbyUttoxeterLink" parent="LinkBox" unique_id=84732494 instance=ExtResource("52_oacw7")]
+position = Vector2(2623.8792, 1011.3933)
+rotation = -1.3919587
+link_data = ExtResource("58_jjni5")
+
+[node name="BelperDerbyLink" parent="LinkBox" unique_id=1703159491 instance=ExtResource("52_oacw7")]
+position = Vector2(3049.0002, 626)
+rotation = -0.35688746
+link_data = ExtResource("59_kfuac")
+
+[node name="DerbyNottinghamLink" parent="LinkBox" unique_id=2106322781 instance=ExtResource("52_oacw7")]
+position = Vector2(3304.0002, 800.00006)
+rotation = 1.0836315
+link_data = ExtResource("60_hu3fu")
+
+[node name="StoneBurtonUponTrentLink" parent="LinkBox" unique_id=1767881077 instance=ExtResource("52_oacw7")]
+position = Vector2(2110.0002, 1202.0001)
+rotation = -1.4062978
+link_data = ExtResource("61_d7ate")
+
+[node name="StoneStaffordLink" parent="LinkBox" unique_id=76177263 instance=ExtResource("52_oacw7")]
+position = Vector2(1299, 1357.0001)
+rotation = -3.9076862
+link_data = ExtResource("62_0e0tb")
+
+[node name="CannockStaffordLink" parent="LinkBox" unique_id=14301327 instance=ExtResource("52_oacw7")]
+position = Vector2(1887, 1558)
+rotation = -0.47013283
+link_data = ExtResource("63_d7ate")
+
+[node name="BurtonUponTrentCannockLink" parent="LinkBox" unique_id=1840661098 instance=ExtResource("52_oacw7")]
+position = Vector2(2279, 1608)
+rotation = -2.174126
+link_data = ExtResource("64_0e0tb")
+
+[node name="DerbyBurtonUponTrentLink" parent="LinkBox" unique_id=1140157949 instance=ExtResource("52_oacw7")]
+position = Vector2(3018.9998, 1344.9999)
+rotation = -2.491034
+link_data = ExtResource("63_lebun")
+
+[node name="CannockRuralBrewery1Link" parent="LinkBox" unique_id=646902028 instance=ExtResource("52_oacw7")]
+position = Vector2(1454, 1738.0001)
+rotation = -1.544909
+link_data = ExtResource("66_lebun")
+
+[node name="CannockWolverhamptonLink" parent="LinkBox" unique_id=619492673 instance=ExtResource("52_oacw7")]
+position = Vector2(1548, 1981.9999)
+rotation = -2.3888013
+link_data = ExtResource("67_ss8pc")
+
+[node name="CannockWalsallLink" parent="LinkBox" unique_id=425990468 instance=ExtResource("52_oacw7")]
+position = Vector2(2177.0002, 2046.0002)
+rotation = -3.332266
+link_data = ExtResource("68_q54jc")
+
+[node name="BurtonUponTrentWalsallLink" parent="LinkBox" unique_id=565726628 instance=ExtResource("52_oacw7")]
+position = Vector2(2347.9998, 1970)
+rotation = -2.941141
+link_data = ExtResource("69_fnc0i")
+
+[node name="BurtonUponTrentTamworthLink" parent="LinkBox" unique_id=486655139 instance=ExtResource("52_oacw7")]
+position = Vector2(2809, 1822.0001)
+rotation = -3.2161129
+link_data = ExtResource("70_6sywo")
+
+[node name="NuneatonTamworthLink" parent="LinkBox" unique_id=1152722662 instance=ExtResource("52_oacw7")]
+position = Vector2(3117, 2090)
+rotation = -0.51065373
+link_data = ExtResource("71_ec3sm")
+
+[node name="BirminghamTamworthLink" parent="LinkBox" unique_id=2127886817 instance=ExtResource("52_oacw7")]
+position = Vector2(2782.0002, 2377.0002)
+rotation = -2.6700463
+link_data = ExtResource("69_xtnyj")
+
+[node name="BirminghamWalsallLink" parent="LinkBox" unique_id=426393182 instance=ExtResource("52_oacw7")]
+position = Vector2(2192, 2509)
+rotation = -0.58840287
+link_data = ExtResource("70_17vqu")
+
+[node name="WalsallWolverhamptonLink" parent="LinkBox" unique_id=1133185074 instance=ExtResource("52_oacw7")]
+position = Vector2(1781.9999, 2188)
+rotation = -1.3866677
+link_data = ExtResource("72_7ufuq")
+
+[node name="WolverhamptonColbrookdaleLink" parent="LinkBox" unique_id=1296212709 instance=ExtResource("52_oacw7")]
+position = Vector2(1140.9999, 2163)
+rotation = -1.5824711
+link_data = ExtResource("71_t2ujw")
+
+[node name="ColbrookdaleShrewsburyLink" parent="LinkBox" unique_id=692547734 instance=ExtResource("52_oacw7")]
+position = Vector2(627.00006, 2169)
+rotation = -1.6416049
+link_data = ExtResource("72_fnc0i")
+
+[node name="KidderminsterColbrookdaleLink" parent="LinkBox" unique_id=1223817715 instance=ExtResource("52_oacw7")]
+position = Vector2(988.00006, 2759)
+rotation = -0.60233957
+link_data = ExtResource("73_7ufuq")
+
+[node name="KidderminsterDudleyLink" parent="LinkBox" unique_id=593528785 instance=ExtResource("52_oacw7")]
+position = Vector2(1408, 2874)
+rotation = -2.5292246
+link_data = ExtResource("78_1krj7")
+
+[node name="WolverhamptonDudleyLink" parent="LinkBox" unique_id=2111644074 instance=ExtResource("52_oacw7")]
+position = Vector2(1464.0001, 2411)
+rotation = -0.46979326
+link_data = ExtResource("79_dw3sv")
+
+[node name="BirminghamDudleyLink" parent="LinkBox" unique_id=31643208 instance=ExtResource("52_oacw7")]
+position = Vector2(2042, 2702)
+rotation = -1.1409647
+link_data = ExtResource("74_6sywo")
+
+[node name="BirminghamCoventryLink" parent="LinkBox" unique_id=1560410296 instance=ExtResource("52_oacw7")]
+position = Vector2(2863.0005, 2904.0002)
+rotation = -1.3014433
+link_data = ExtResource("75_ec3sm")
+
+[node name="BirminghamNuneatonLink" parent="LinkBox" unique_id=1250678145 instance=ExtResource("52_oacw7")]
+position = Vector2(2854, 2614.0002)
+rotation = -2.5961063
+link_data = ExtResource("76_1krj7")
+
+[node name="NuneatonCoventryLink" parent="LinkBox" unique_id=1659404143 instance=ExtResource("52_oacw7")]
+position = Vector2(3459, 2669.9998)
+rotation = -3.1669123
+link_data = ExtResource("83_dw3sv")
+
+[node name="BirminghamWorcesterLink" parent="LinkBox" unique_id=2097570335 instance=ExtResource("52_oacw7")]
+position = Vector2(1944, 3177.9998)
+rotation = -2.678408
+link_data = ExtResource("77_dw3sv")
+
+[node name="BirminghamOxfordLink" parent="LinkBox" unique_id=1628470363 instance=ExtResource("52_oacw7")]
+position = Vector2(2846.0002, 3066.0002)
+rotation = -0.6502638
+link_data = ExtResource("78_ilgnf")
+
+[node name="WolverhamptonOxfordLink" parent="LinkBox" unique_id=402924977 instance=ExtResource("52_oacw7")]
+position = Vector2(2622.0002, 3343.0002)
+rotation = -1.3790301
+link_data = ExtResource("86_wn1l0")
+
+[node name="RedditchOxfordLink" parent="LinkBox" unique_id=2061159232 instance=ExtResource("52_oacw7")]
+position = Vector2(2024.0001, 3457.0002)
+rotation = -2.3948467
+link_data = ExtResource("87_kpofj")
+
+[node name="WorcesterGloucesterLink" parent="LinkBox" unique_id=541995634 instance=ExtResource("52_oacw7")]
+position = Vector2(1715, 3710)
+rotation = -1.2585667
+link_data = ExtResource("88_yr1yi")
+
+[node name="KidderminsterWorcesterRuralBrewery2Link" parent="LinkBox" unique_id=1042653102 instance=ExtResource("52_oacw7")]
+position = Vector2(1334, 3325.0002)
+rotation = -0.4637801
+link_data = ExtResource("89_uvurj")
+
+[node name="WalsallTamworthLink" parent="LinkBox" unique_id=1256547411 instance=ExtResource("52_oacw7")]
+position = Vector2(2482, 2230.9998)
+rotation = -2.0282872
+link_data = ExtResource("81_6sywo")
+
+[node name="BirminghamRedditchLink" parent="LinkBox" unique_id=975075019 instance=ExtResource("52_oacw7")]
+position = Vector2(2467.0002, 3100.0002)
+rotation = -3.057571
+link_data = ExtResource("79_wn1l0")
