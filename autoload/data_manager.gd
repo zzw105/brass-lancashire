@@ -9,6 +9,8 @@ var areas: Dictionary[StringName, AreaDefinition] = {}
 var industries: Dictionary[StringName, IndustryDefinition] = {}
 ## 静态游戏数据-道路
 var links: Dictionary[StringName, LinkDefinition] = {}
+## 静态游戏数据-市场
+var markets: Dictionary[StringName, MarketDefinition] = {}
 
 
 ## 静态游戏数据-加载全部静态数据
@@ -116,10 +118,27 @@ func load_links():
 			var link = load("res://definitions/link/link_tres/" + file)
 			links[link.id] = link
 
+## 静态游戏数据-加载-市场静态数据
+func load_markets():
+	var dir = DirAccess.open("res://definitions/market/market_tres")
+
+	dir.list_dir_begin()
+
+	while true:
+		var file = dir.get_next()
+
+		if file == "":
+			break
+
+		if file.ends_with(".tres"):
+			var market = load("res://definitions/market/market_tres/" + file)
+			markets[market.id] = market
+
 
 ## 静态游戏数据-整理-全部静态数据
 func sort_dictionary():
 	for city: CityDefinition in cities.values():
+		# 整理区域数据
 		for area: AreaDefinition in city.owned_area:
 			area.city_id = city.id
 			var can_industry_list_ids: Array[StringName] = []
@@ -128,14 +147,17 @@ func sort_dictionary():
 			area.can_industry_list_ids = can_industry_list_ids
 			area.can_industry_list.clear()
 			city.owned_area_ids.append(area.id)
-		
 		city.owned_area.clear()
 		
-
+		# 整理道路数据
 		for link: LinkDefinition in city.owned_link:
 			link.linked_city_ids.append(city.id)
 			city.owned_link_ids.append(link.id)
-
 		city.owned_link.clear()
+
+		# 整理市场数据
+		if city.market_info != null:
+			city.market_info_id = city.market_info.id
+			city.market_info = null
 
 	return

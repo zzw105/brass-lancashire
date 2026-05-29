@@ -106,7 +106,7 @@ func _process(delta: float) -> void:
 	pass
 "
 
-[node name="Map" type="Node2D" unique_id=1894075180]
+[node name="MapNode" type="Node2D" unique_id=1894075180]
 script = SubResource("GDScript_ap3q4")
 
 [node name="Map" type="Sprite2D" parent="." unique_id=183197244]
@@ -561,4 +561,4 @@ rotation = -3.057571
 link_data = ExtResource("79_wn1l0")
 
 [node name="Card" parent="." unique_id=457844910 instance=ExtResource("92_uvurj")]
-position = Vector2(430, 562)
+position = Vector2(1016.99994, 514)

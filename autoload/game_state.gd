@@ -26,14 +26,10 @@ func setup():
 ## 游戏数据-初始化城市
 func setupCities():
 	for city_id in DataManager.cities:
-		var city_definition = DataManager.get_city(city_id)
-		var area_ids: Array[StringName] = []
-		for item in city_definition.owned_area:
-			area_ids.append(item.id)
-		cities[city_id] = CityRuntimeState.new(city_id, area_ids)
+		cities[city_id] = CityRuntimeState.new(city_id)
 		# 城市id添加进区域
-		for area_id in area_ids:
-			areas[area_id].city_id = city_id
+		# for area_id in area_ids:
+		# 	areas[area_id].city_id = city_id
 			
 
 ## 游戏数据-初始化区域
