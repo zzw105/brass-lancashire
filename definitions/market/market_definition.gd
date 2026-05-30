@@ -14,3 +14,6 @@ var city_id: StringName = ""
 
 ## 市场数据类-啤酒奖励
 @export var beer_reward: Dictionary = {}
+
+## 市场数据类-贸易板块开启人数需要大于多少
+@export var trade_sector_player_limit: int = 0

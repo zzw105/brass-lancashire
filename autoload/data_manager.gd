@@ -11,6 +11,8 @@ var industries: Dictionary[StringName, IndustryDefinition] = {}
 var links: Dictionary[StringName, LinkDefinition] = {}
 ## 静态游戏数据-市场
 var markets: Dictionary[StringName, MarketDefinition] = {}
+## 静态游戏数据-贸易板块卡牌
+var trade_cards: Dictionary[StringName, TradeCardDefinition] = {}
 
 
 ## 静态游戏数据-加载全部静态数据
@@ -20,13 +22,14 @@ func load_definitions():
 	load_areas()
 	load_cities()
 	load_links()
+	load_trade_sectors()
 	# 整理静态数据
 	sort_dictionary()
 
 	# 发送加载完成事件
 	EventBus.global_event_changed.emit(EventBus.GlobalEvent.LOAD_DEFINITIONS_COMPLETE)
 
-	
+
 ## 静态游戏数据-获取-城市静态数据
 func get_city(id: StringName) -> CityDefinition:
 	if !cities.has(id):
@@ -135,6 +138,30 @@ func load_markets():
 			markets[market.id] = market
 
 
+## 静态游戏数据-加载-贸易板块卡牌
+func load_trade_sectors():
+	var dir = DirAccess.open("res://definitions/trade_card/trade_card_tres/")
+
+	dir.list_dir_begin()
+
+	while true:
+		var file = dir.get_next()
+
+		if file == "":
+			break
+
+		if file.ends_with(".tres"):
+			var card: TradeCardDefinition = load("res://definitions/trade_card/trade_card_tres/" + file)
+			trade_cards[card.id] = card
+	
+	
+## 静态游戏数据-获取-贸易板块卡牌
+func get_trade_card(id: StringName) -> TradeCardDefinition:
+	if !trade_cards.has(id):
+		push_error("trade_cards not found: %s" % id)
+		return null
+	return trade_cards[id]
+
 ## 静态游戏数据-整理-全部静态数据
 func sort_dictionary():
 	for city: CityDefinition in cities.values():
@@ -148,7 +175,7 @@ func sort_dictionary():
 			area.can_industry_list.clear()
 			city.owned_area_ids.append(area.id)
 		city.owned_area.clear()
-		
+
 		# 整理道路数据
 		for link: LinkDefinition in city.owned_link:
 			link.linked_city_ids.append(city.id)

@@ -6,15 +6,10 @@ class_name CardNode
 @onready var back: Sprite2D = $FlipContainer/Back
 
 @export var flip_duration: float = 0.3
-@export var atlas_frame: int = 0:
-	set(v):
-		atlas_frame = v
-		if front:
-			front.frame = v
+@export var atlas_frame: int = 1
 
 var is_flipped: bool = false
 var is_animating: bool = false
-
 
 func _input(event: InputEvent) -> void:
 	if Engine.is_editor_hint():

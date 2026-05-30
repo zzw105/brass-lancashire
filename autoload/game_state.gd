@@ -15,6 +15,8 @@ var areas: Dictionary[StringName, AreaRuntimeState] = {}
 var cities: Dictionary[StringName, CityRuntimeState] = {}
 ## 游戏数据-产业
 var industries: Dictionary[StringName, IndustryRuntimeState] = {}
+## 游戏数据-市场
+var markets: Dictionary[StringName, MarketRuntimeState] = {}
 
 
 ## 游戏数据-初始化
@@ -22,6 +24,7 @@ func setup():
 	setupIndustry()
 	setupAreas()
 	setupCities()
+	setupMarkets()
 
 ## 游戏数据-初始化城市
 func setupCities():
@@ -46,3 +49,9 @@ func setupAreas():
 func setupIndustry():
 	for industry_id in DataManager.industries:
 		industries[industry_id] = IndustryRuntimeState.new(industry_id)
+
+## 游戏数据-初始化市场
+func setupMarkets():
+	for market_id in DataManager.markets:
+		var market_runtime_state = MarketRuntimeState.new(market_id)
+		markets[market_id] = market_runtime_state

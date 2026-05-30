@@ -561,4 +561,7 @@ rotation = -3.057571
 link_data = ExtResource("79_wn1l0")
 
 [node name="Card" parent="." unique_id=457844910 instance=ExtResource("92_uvurj")]
-position = Vector2(1016.99994, 514)
+position = Vector2(1421, 489)
+
+[node name="Card2" parent="." unique_id=1277306027 instance=ExtResource("92_uvurj")]
+position = Vector2(1311, 326)

@@ -10,4 +10,5 @@ beer_reward = {
 "type": "research_development",
 "value": 1
 }
+trade_sector_player_limit = 2
 metadata/_custom_type_script = "uid://didtsf4dex1y0"

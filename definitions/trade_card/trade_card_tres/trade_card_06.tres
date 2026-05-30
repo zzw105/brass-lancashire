@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="TradeCardDefinition" format=3]
+
+[ext_resource type="Script" uid="uid://bnojbf34ie88a" path="res://definitions/trade_card/trade_card.gd" id="1_trade_card"]
+[ext_resource type="Script" uid="uid://c0unt0loehw5f" path="res://definitions/industry/industry_definition.gd" id="2_industry_script"]
+[ext_resource type="Resource" uid="uid://cexhnjtjot7lg" path="res://definitions/industry/industry_tres/ceramic_industry.tres" id="3_ceramic"]
+
+[resource]
+script = ExtResource("1_trade_card")
+id = &"trade_card_06"
+industry_info = Array[ExtResource("2_industry_script")]([ExtResource("3_ceramic")])
+trade_player_limit = 3

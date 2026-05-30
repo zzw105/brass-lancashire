@@ -10,4 +10,5 @@ beer_reward = {
 "type": "score",
 "value": 3
 }
+trade_sector_player_limit = 4
 metadata/_custom_type_script = "uid://didtsf4dex1y0"

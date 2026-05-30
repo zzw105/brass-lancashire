@@ -10,4 +10,6 @@ beer_reward = {
 "type": "money",
 "value": 5
 }
+trade_sector_player_limit = 3
+trade_spots = Array[Vector2]([Vector2(1019, 511), Vector2(1210, 511)])
 metadata/_custom_type_script = "uid://didtsf4dex1y0"
